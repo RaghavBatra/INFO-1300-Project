@@ -51,6 +51,13 @@ body {
 
 }
 
+#global_nav a:hover {
+  background-color: black;
+}
+#global_nav ul {
+  margin:0;
+  padding:0;
+}
 
 #global_nav li a {
     display: block;
@@ -58,7 +65,9 @@ body {
     text-align: center;
     font-size: 100%;
     padding: 14px 16px;
+    text-decoration:none;
 }
+
 
 
 #global_nav li {
@@ -68,5 +77,5 @@ body {
     color: white;
     text-align: center;
     font-size: 100%;
-    padding: 14px 16px;
+    
 }

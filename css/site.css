@@ -1,4 +1,3 @@
-
 body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
@@ -6,45 +5,20 @@ body {
     margin: 0;
 }
 
-
 #top {
     background-color: #ffffff;
-    height: 7em;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-
+    margin-top: 3em;
 }
-
-#img {
-    margin-top: 2em;
-}
-#banner {
-    background-color: #7C7DB2;
-    color: #e6e6fa;
-    height: 3.3em;
-    width: 100%;
-}
-
-#banner > h1 {
-    font-family: Georgia, serif;
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: auto;
-    max-width: 960px;
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
-}
-
 
 #global_nav {
     background-color: #F0450C;
     font-family: Imprima, sans-serif;
-    font-size: 1.25em;
     height: 2em;
-    margin-top: 17em;
     width: 100%;
+    top: -20em;
+    position: fixed;
+    font-size: 1.25em;
+    margin-top: 20em;
     padding-bottom: 0.5em;
     margin-bottom: 0.5em;
 }
@@ -74,6 +48,9 @@ body {
     text-decoration: none;
   }
 
+#content {
+    padding: 2em;
+}
 
 #global_nav a:hover {
     background-color: black;

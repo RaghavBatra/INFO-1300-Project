@@ -31,16 +31,12 @@ body {
 #global_nav li {
     float: left;
     display: inline;
-    display: block;
-    color: violet;
     text-align: center;
-    font-size: 100%;
 }
 
 #global_nav li a {
     float: left;
     display: inline;
-    display: block;
     color: white;
     text-align: center;
     font-size: 100%;
@@ -49,8 +45,39 @@ body {
   }
 
 #content {
-    padding: 2em;
+    padding: 0 0 2em 2em;
+    margin-bottom: 2em;
 }
+
+#footer {
+    background-color: whitesmoke;
+    color: black;
+    font-family: Imprima, sans-serif;
+    height: 2em;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    font-size: 1.25em;
+    margin-top: 2em;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    border-top: 4px solid;
+    border-color: #F0450C;
+}
+
+#footer ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+}
+
+#footer li a {
+    float: left;
+    font-size: 100%;
+    text-decoration: none;
+    padding-left: 0.5em;
+  }
 
 #global_nav a:hover {
     background-color: black;

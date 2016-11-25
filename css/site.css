@@ -13,11 +13,11 @@ body {
 #global_nav {
     background-color: #F0450C;
     font-family: Imprima, sans-serif;
-    height: 2em;
+    height: 2.5em;
     width: 100%;
     top: -20em;
     position: fixed;
-    font-size: 1.25em;
+    font-size: 1em;
     margin-top: 20em;
     padding-bottom: 0.5em;
     margin-bottom: 0.5em;

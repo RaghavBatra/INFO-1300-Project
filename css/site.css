@@ -72,7 +72,7 @@ body {
     list-style-type: none;
 }
 
-#footer li a {
+#footer li {
     float: left;
     font-size: 100%;
     text-decoration: none;

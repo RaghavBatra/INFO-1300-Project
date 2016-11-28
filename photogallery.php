@@ -56,9 +56,6 @@
         <!-- photo from https://c2.staticflickr.com/6/5731/22001136566_c3dab9aaec_b.jpg -->
         </a>
     </div>
-
-
-</div>
     
     <?php 
         include 'includes/footer.php';

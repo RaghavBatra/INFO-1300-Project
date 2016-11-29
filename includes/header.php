@@ -12,6 +12,6 @@
 
     <div id="top">
         <img src="images/apples_newest.jpg" alt="apple banner image">
-        <!--  Image credits: Ksenia Verdiyan; on public Google+ profile: https://plus.google.com/+Cornell/posts/4pevhgQZwJY -->
+        <!--  Image credits: Edited by Rona Chang from public Google+ profile of Ksenia Verdiyan: https://plus.google.com/+Cornell/posts/4pevhgQZwJY -->
     </div>
     <!-- end of the top banner -->

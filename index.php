@@ -26,7 +26,7 @@
         </div>
 
         <div id="nextcontentsection">
-            <h4>Take a Break from Studying and Come for... </p>
+            <h4>Take a Break from Studying and Come for... </h4>
             <p class = "overview">Craft Show, Live Music, Street Performers, Farmers Market, Food Vendors</p>
             <p class = "apples"> ...AND LOTS OF APPLES </p>
           </div>

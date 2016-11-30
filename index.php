@@ -13,7 +13,7 @@
 
     <?php
         include 'includes/header.php';
-        ?>
+    ?>
 
     <div id="content">
 
@@ -21,6 +21,7 @@
         <h3>Date: September 30, 2017 - October 2, 2017 </h3>
 
         <div id="row1">
+            
             <a href = #><img src="images/photos.jpg" id="photogallery" alt="photo gallery image"></a>
             <!-- Image credits: Edited by Rona Chang from https://www.flickr.com/photos/106103661@N02/21839482248/ -->
             <p id= "vendor"><b>Over 100 vendors will be selling unique apple varieties:</b> hot apple cider donuts,
@@ -34,12 +35,14 @@
             <h4>Take a Break from Studying and Come for... </h4>
             <p id = "overview">Craft Show, Live Music, Street Performers, Farmers Market, Food Vendors</p>
             <p id = "apples"> ...AND LOTS OF APPLES </p>
+            
           </div>
+        
     </div>
 
     <?php
         include 'includes/footer.php';
-        ?>
+    ?>
 
 
 </body>

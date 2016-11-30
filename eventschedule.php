@@ -10,19 +10,22 @@
     </head>
 
 <body>
+    
     <?php 
         include 'includes/header.php';
-        ?>
+    ?>
     <h3> 2016 Main Stage Schedule </h3>
+    
     <div id="scheduler">
         <img src="images/event.jpg" alt="schedule" width="1100">
         <! -- image created by Chelsea through Pages -->
         
     
-    
     <?php 
         include 'includes/footer.php';
-        ?>
+    ?>
+    
+    </div>
 
 </body>
 </html>

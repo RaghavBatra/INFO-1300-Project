@@ -13,18 +13,24 @@
 
     <?php 
         include 'includes/header.php';
-        ?>
+    ?>
 
     <div id="content">
+        
         <div id="map">
+            
         	<h2> Map of Downtown Ithaca </h2>
         	<a target="_blank" href="images/map.jpg">
         	<img src="images/map.jpg" alt="Apple Fest map">
-       		<!--photo from http://www.downtownithaca.com/local/file_upload/images/Apple%20Harvest%20Map%202016.jpg -->
+       		<!-- Image credits: http://www.downtownithaca.com/local/file_upload/images/Apple%20Harvest%20Map%202016.jpg -->
         	</a>
+            
         <div id="directions">
+            
         	<h2> Here are some easy ways to get to the Downtown and join the Festival! </h2>
+            
         	<div id="bus">
+                
         		<h2> bus </h2>
         		<h3> North Campus </h3>
 	        		<table>
@@ -124,8 +130,11 @@
 		        			<td> Seneca@Commons </td>
 		        		</tr>
 		        	</table>
-        	</div>,
+                
+        	</div>
+            
         	<div id="shuttle">
+                
         		<h2> Free shuttle </h2>
         		<p> A free shuttle bus is offered every hour from 11am to 5pm going from North Campus to Ithaca Commons. </p>
         		<table>
@@ -186,23 +195,33 @@
 	        				<td> 5:25 pm </td>
 		        		</tr>
 		        	</table>
+                
         	</div>
+            
         	<div id="driving">
+                
         		<h2> Driving </h2>
         		<p> Plenty of parking spaces are available in Ithaca Commons, including: </p>
+                
         		<div id="list">
+                    
 	        		<p> Seneca Garage </p>
 	        		<p> Green St. Garage </p>
 	        		<p> Cayuga Garage </p> 
+                    
         		</div>
+                
         	</div>
+            
         </div>
+            
     </div>
     
     <?php 
         include 'includes/footer.php';
-        ?>
+    ?>
 
-
+</div>
+    
 </body>
 </html>

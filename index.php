@@ -16,10 +16,10 @@
         ?>
 
     <div id="content">
-        
+
         <h2> Join us for the 34th Annual Great Downtown Ithaca Apple Harvest Festival! </h2>
         <h3>Date: September 30, 2017 - October 2, 2017 </h3>
-        
+
         <div id="row1">
             <a href = #><img src="images/photos.jpg" id="photogallery" alt="photo gallery image"></a>
             <!-- Image credits: Edited by Rona Chang from https://www.flickr.com/photos/106103661@N02/21839482248/ -->

@@ -1,17 +1,17 @@
    <div id="global_nav">
         <ul>
-            <li><a href=#>Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href=#>Event Schedule</a></li>
             <li><a href=#>Vendors</a></li>
             <li><a href=#>Directions</a></li>
-            <li><a href=#>Photo Gallery</a></li>
-            <li><a href=#>Contact Us</a></li>
+            <li><a href="photogallery.php">Photo Gallery</a></li>
+            <li><a href="contactpage.php">Contact Us</a></li>
         </ul>
     </div>
     <!-- end of the navigation bar -->
 
     <div id="top">
         <img src="images/apples_newest.jpg" alt="apple banner image">
-        <!--  Image credits: Edited by Rona Chang from public Google+ profile of Ksenia Verdiyan: https://plus.google.com/+Cornell/posts/4pevhgQZwJY -->
+        <!--  Image credits: http://unicoicounty.org/apple-festival/ -->
     </div>
-    <!-- end of the top banner -->
+    <!-- end of the topic banner -->

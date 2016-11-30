@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Amatic SC;
     padding: 0;
     margin: 0;
 }
@@ -99,6 +99,69 @@ body {
     margin-right: 3em;
 }
 
+#info {
+    font-family: Amatic SC;
+    margin:top: 1em;
+}
+
+#phone_address {
+    display:block;
+    font-family: Amatic SC;
+    margin-top:2em;
+    padding:0em;
+    text-align: center;
+}
+
+#email_address {
+    display:block;
+    font-family: Amatic SC;
+    margin-top:2em;
+    padding:0em;
+    text-align: center;
+}
+
+#address_info {
+    display:block;
+    font-family: Amatic SC;
+    margin-top:2em;
+    padding:0em;
+    margin-left: 0em;
+    text-align: center;
+}
+
+#maincontent {
+    display:flex;
+    margin-bottom:4em;
+    margin-left:3em;
+    margin-right:3em;
+    font-family: Amatic SC;
+}
+
+.contactstyle {
+  text-align: center;
+  margin-right: 1em;
+  margin-left: 3em;
+  padding: 0.5em;
+  margin-bottom:0em;
+  margin-top:0.5em;
+  font-size: 2em;
+  border: 6px outset #ff8f66;
+}
+
+.address {
+  text-align: center;
+  padding:1em;
+  display:inline-block;
+  font-size: 2.5em;
+  border: 6px outset #ff8f66;
+  margin-left: 2em;
+
+}
+
+.icons {
+  margin-left:4em;
+}
+
 #footer {
     background-color: whitesmoke;
     color: black;
@@ -141,6 +204,20 @@ h4 {
     margin-top: 0em;
     margin-left: 1.5em;
 }
+
+h5 {
+  text-align: center;
+  font-family: Amatic SC;
+  color:white;
+  font-size: 4.5em;
+  border: 8px outset #F0450C;
+  padding:0em;
+  margin:auto;
+  margin-top:0.3em;
+  background-color: #F0450C;
+}
+
+
 #footer ul {
     margin: 0;
     padding: 0;

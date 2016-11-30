@@ -177,3 +177,100 @@ h4 {
     width: 100%;
     height: auto;
 }
+
+#map > h2 {
+    text-align: center;
+    font-family: Amatic SC;
+    font-size: 4em;
+    border: none;
+    margin-left: 0.75em;
+    margin-right:0.5em;
+    padding:0.2em;
+}
+
+#map > img {
+    width: 100%;
+    margin-left: 2.5em;
+}
+
+#directions > h2 {
+    text-align: center;
+    font-family: Amatic SC;
+    font-size: 4em;
+    border: none;
+    margin-left: 0.5em;
+    margin-right:0.5em;
+    padding:0.2em;
+}
+
+#directions > div > h2 {
+    text-align: center;
+    font-family: Amatic SC;
+    font-size: 3em;
+    border: border: 8px outset #F0450C;
+    margin-left: 0.5em;
+    margin-right:0.5em;
+    padding:0.2em;
+}
+
+#directions > div > h3 {
+    text-align: left;
+    font-family: Amatic SC;
+    font-size: 2em;
+    border: none;
+    margin-left: 0.5em;
+    margin-right:0.5em;
+    padding:0.2em;
+}
+
+#directions > div > table {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    width: 95%;
+    border: 1px;
+    border-color: #F88017;
+    border-style: solid;
+    margin-left:1.75em;
+}
+
+th {
+    height: 40px;
+    border: 1px;
+    border-color: #F88017;
+    border-style: solid;
+    width: 300px;
+}
+
+td {
+    height: 25px;
+    border: 1px;
+    border-color: #F88017;
+    border-style: solid;
+    width: 300px;
+}
+
+td > a {
+    color: black;
+}
+
+
+#directions > div > p {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    border: none;
+    margin-left: 1.25em;
+    margin-right:0.5em;
+    padding:0.2em;    
+}
+
+#list > p {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin-left: 1.25em;
+    margin-right:0.5em;
+    margin-bottom:0.25em;
+    margin-top:0.25em;
+    padding:0.2em;    
+}

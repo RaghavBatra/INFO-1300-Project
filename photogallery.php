@@ -17,42 +17,42 @@
 
     <div class="img">
         <a target="_blank" href="images/photo1.jpg">
-        <img src="images/photo1.jpg" alt="Apple Fest sign" width="600" height="400">
+        <img src="images/photo1.jpg" alt="Apple Fest sign">
         <!--photo from https://c2.staticflickr.com/6/5751/22027344875_aa950b1b1a_b.jpg -->
         </a>
     </div>
     
     <div class="img">
         <a target="_blank" href="images/photo2.jpg">
-        <img src="images/photo2.jpg" alt="Performance" width="600" height="400">
+        <img src="images/photo2.jpg" alt="Performance">
         <!-- photo from https://c1.staticflickr.com/1/702/22037228081_bb262c0a2d_b.jpg -->
         </a>
     </div>
 
     <div class="img">
         <a target="_blank" href="images/photo3.jpg">
-        <img src="images/photo3.jpg" alt="Toys" width="600" height="400">
+        <img src="images/photo3.jpg" alt="Toys">
         <!-- photo from https://c1.staticflickr.com/1/658/21404547274_a6b776f7c5_b.jpg -->
         </a>
     </div>
 
     <div class="img">
         <a target="_blank" href="images/photo4.jpg">
-        <img src="images/photo4.jpg" alt="Bags of apples" width="600" height="400">
+        <img src="images/photo4.jpg" alt="Bags of apples">
         <!-- photo from https://c2.staticflickr.com/6/5767/21839482248_f3d9157b68_b.jpg -->
         </a>
     </div>
 
     <div class="img">
         <a target="_blank" href="images/photo5.jpg">
-        <img src="images/photo5.jpg" alt="Crowd at Apple Fest" width="600" height="400">
+        <img src="images/photo5.jpg" alt="Crowd at Apple Fest">
         <!-- https://c2.staticflickr.com/6/5689/22015033122_0f6407f424_b.jpg -->
         </a>
     </div>
 
     <div class="img">
         <a target="_blank" href="images/photo6.jpg">
-        <img src="images/photo6.jpg" alt="hot cider store" width="600" height="400">
+        <img src="images/photo6.jpg" alt="hot cider store">
         <!-- photo from https://c2.staticflickr.com/6/5731/22001136566_c3dab9aaec_b.jpg -->
         </a>
     </div>

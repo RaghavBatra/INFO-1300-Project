@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Amatic SC;
     padding: 0;
     margin: 0;
 }
@@ -213,6 +213,7 @@ h5 {
   background-color: #F0450C;
 }
 
+
 #footer ul {
     margin: 0;
     padding: 0;
@@ -249,6 +250,8 @@ h5 {
     width: 100%;
     height: auto;
 }
+<<<<<<< HEAD
+=======
 
 #map > h2 {
     text-align: center;
@@ -346,3 +349,4 @@ td > a {
     margin-top:0.25em;
     padding:0.2em;
 }
+>>>>>>> 9d9037157652f2c3279ba62a8734c55332096e89

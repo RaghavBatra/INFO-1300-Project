@@ -10,12 +10,12 @@
     </head>
 
 <body>
-    
-    <?php 
+
+    <?php
         include 'includes/header.php';
     ?>
-    <h3> 2016 Main Stage Schedule </h3>
-    
+    <h5> 2016 Main Stage Schedule </h5>
+
     <div id="sat">
         <table id=Saturday>
             <tr>
@@ -100,13 +100,13 @@
             </tr>
         </table>
     </div>
-            
-            
-    
-    <?php 
+
+
+
+    <?php
         include 'includes/footer.php';
     ?>
-    
+
     </div>
 
 </body>

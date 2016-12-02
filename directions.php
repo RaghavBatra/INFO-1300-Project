@@ -19,8 +19,7 @@
         
         <div id="map">
             
-        	<h2> Map of Downtown Ithaca </h2>
-        	<a target="_blank" href="images/map.jpg">
+        	<h2> Directions </h2>
         	<img src="images/map.jpg" alt="Apple Fest map">
        		<!-- Image credits: http://www.downtownithaca.com/local/file_upload/images/Apple%20Harvest%20Map%202016.jpg -->
         	</a>

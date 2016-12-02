@@ -80,7 +80,6 @@ body {
     font-family: Amatic SC;
     font-size: 2.5em;
     border: 6px outset #ffd199;
-    background-color: #ffd199;
     float:none;
 }
 
@@ -88,7 +87,6 @@ body {
     text-align: center;
     font-size: 3em;
     margin-right: 2em;
-    margin-left: 2em;
     margin-top: 0.5em;
     background-color: #ffb366;
     border: 6px outset #ff8000;
@@ -96,13 +94,9 @@ body {
 }
 
 #apples {
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     margin-right: 3em;
-    margin-left: 3em;
-    border: 8px outset #F0450C;
-    background-color:#F0450C;
-    color:white;
 }
 
 
@@ -171,17 +165,6 @@ body {
   margin-left:1em;
 }
 
-.fax{
-  text-align: center;
-  margin-right: 1em;
-  margin-left: 1.2em;
-  padding: 0.7em;
-  margin-bottom:0em;
-  margin-top:1.8em;
-  font-size: 2em;
-  border: 6px outset #ff8f66;
-}
-
 #footer {
     background-color: whitesmoke;
     color: black;
@@ -197,17 +180,6 @@ body {
     border-top: 4px solid;
     border-color: #F0450C;
 }
-h1 {
-      text-align: center;
-      font-family: Amatic SC;
-      font-size: 4em;
-      background-color: #F0450C;
-      border: 8px outset #F0450C;
-      margin-left: 0.5em;
-      margin-right:0.5em;
-      padding:0.2em;
-      color:white;
-  }
 
 h2 {
     text-align: center;
@@ -223,8 +195,7 @@ h3 {
     text-align: center;
     font-family: Amatic SC;
     font-size: 3em;
-    border: 8px outset darkorange;
-    background-color: orange;
+    border: 8px outset orange;
     padding:0.3em;
     margin-left: 5em;
     margin-right:6em;
@@ -233,8 +204,7 @@ h3 {
 
 h4 {
     font-size: 4em;
-    margin:auto;
-    margin-bottom:0.5em;
+    margin-top: 0em;
     margin-left: 1.5em;
 }
 
@@ -247,8 +217,6 @@ h5 {
   padding:0em;
   margin:auto;
   margin-top:1em;
-  margin-left: 1em;
-  margin-right:1em;
   background-color: orange;
 }
 
@@ -444,5 +412,30 @@ button:hover {
   margin-top: 1.1em;
   padding:0.2em;
 }
+
+
+#schedule > h3 {
+    text-align: left;
+    font-family: Amatic SC;
+    font-size: 2em;
+    border: none;
+    margin-left: 0.5em;
+    margin-right:0.5em;
+    padding:0.2em;
+}
+
+#schedule > table {
+    font-family: Amatic SC;
+    font-size: 1.5em;
+    width: 95%;
+    border: 1px;
+    border-color: #F88017;
+    border-style: solid;
+    margin-left:1.75em;
+    font-weight: 700;
+    text-align: center;
+}
+
+
 
 /* button code learnt from http://css3buttongenerator.com/ */

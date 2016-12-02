@@ -357,7 +357,7 @@ td > a {
     padding:0.2em;
 }
 
-.button {
+button {
   margin-left: 1.25em;
   background: #f25c59;
   background-image: -webkit-linear-gradient(top, #f25c59, #f0d287);
@@ -379,7 +379,7 @@ td > a {
   width: 125px;
 }
 
-.button:hover {
+button:hover {
   background: #f7e491;
   background-image: -webkit-linear-gradient(top, #f7e491, #f2e399);
   background-image: -moz-linear-gradient(top, #f7e491, #f2e399);
@@ -389,7 +389,7 @@ td > a {
   text-decoration: none;
 }
 
-#slides > img {
+#photos > img {
   margin-left: 1.25em;
   margin-bottom: 1.25em;
 }

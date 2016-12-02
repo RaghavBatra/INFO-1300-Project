@@ -16,11 +16,11 @@
         include 'includes/header.php';
     ?>
     
-    <div id = "slides">
+    <div id = "photos">
 
         <p> 
-        <button class = "button" onclick="previous()">Previous</button> 
-        <button class = "button" onclick="next()">Next</button> 
+        <button onclick="previous()">Previous</button> 
+        <button onclick="next()">Next</button> 
         </p>
 
         <!--photo 1 from https://c2.staticflickr.com/6/5751/22027344875_aa950b1b1a_b.jpg 

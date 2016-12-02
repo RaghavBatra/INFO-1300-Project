@@ -28,23 +28,26 @@
               <p class= "contactstyle"><b>The Downtown Ithaca Alliance Mailing Address</b><br>
                 171 E. State St. PMB #136<br>
                 Center Ithaca<br>
-                Ithaca, NY 14850<br>
-                USA</p>
+                Ithaca, NY 14850 USA</p>
         </div>
 
             <div id = "phone_address">
               <img src="images/phone-icon.png" class= "icons"alt="phone icon">
               <!-- Image credits: http://icons.iconarchive.com/icons/graphicloads/100-flat/256/phone-icon.png-->
-              <p class="contactstyle"><b>Phone</b><br> 607-277-8679</p>
-              <p class="contactstyle"><b>Fax</b><br> 607-277-8691</p>
+              <p class="contactstyle"><b>Phone</b><br>607-277-8679</p>
+              <p class="fax"><b>Fax</b><br>607-277-8691</p>
+
             </div>
 
             <div id = "email_address">
                 <img src="images/email-icon.png" class ="icons" alt="email icon">
                 <!-- Image credits: http://racetimingsolutions.co.uk/wp-content/uploads/2010/07/email-icon-orange-1.png-->
                 <p class="contactstyle"><b>Email</b><br>info@downtownithaca.com </p>
-                <img src="images/downtown_ithaca.png" id="downtownithaca" alt="Downtown Ithaca">
+                <p class="fax"><b>When Emailing:<br>
+                  Please provide your name, email,<br>
+                  and question/comment</p>
                 <!--Image credits: http://www.downtownithaca.com/local/file_upload/images/Screen%20Shot%202014-01-30%20at%208_54_03%20PM.png-->
+                <!--<img src="images/downtown.png" id="downtownithaca" alt="Downtown Ithaca">-->
             </div>
 
     </div>

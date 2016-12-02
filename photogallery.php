@@ -12,25 +12,25 @@
 
 <body>
 
-    <?php 
+    <?php
         include 'includes/header.php';
     ?>
-    
+
     <div id = "gallery">
-        <h2> Photo Gallery </h2>
-        
+        <h5> Photo Gallery </h5>
+
         <div id = "buttons">
-            <p> 
-            <button onclick="previous()">Previous</button> 
-            <button onclick="next()">Next</button> 
+            <p>
+            <button onclick="previous()">Previous</button>
+            <button onclick="next()">Next</button>
             </p>
-            
+
         </div>
-        
+
         <div id = "photos">
-    
-            <!-- Image credits :photo 1 from https://c2.staticflickr.com/6/5751/22027344875_aa950b1b1a_b.jpg 
-             Image credits: photo 2 from https://c1.staticflickr.com/1/702/22037228081_bb262c0a2d_b.jpg 
+
+            <!-- Image credits :photo 1 from https://c2.staticflickr.com/6/5751/22027344875_aa950b1b1a_b.jpg
+             Image credits: photo 2 from https://c1.staticflickr.com/1/702/22037228081_bb262c0a2d_b.jpg
              Image credits: photo 3 from https://c1.staticflickr.com/1/658/21404547274_a6b776f7c5_b.jpg
              Image credits: photo 4 from https://c2.staticflickr.com/6/5767/21839482248_f3d9157b68_b.jpg
              Image credits: photo 5 from https://c2.staticflickr.com/6/5689/22015033122_0f6407f424_b.jpg
@@ -44,11 +44,11 @@
             <img id="slides" src="images/photo1.jpg" alt="apple fest photos">
 
         </div>
-        
+
     </div>
 
-   
-    <?php 
+
+    <?php
         include 'includes/footer.php';
     ?>
 

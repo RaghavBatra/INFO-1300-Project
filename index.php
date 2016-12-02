@@ -10,12 +10,12 @@
     </head>
 
 <body>
-    
+
     <div id="top">
         <img src="images/apples_newest.jpg" alt="apple banner image">
         <!--  Image credits: Edited by Rona Chang from public Google+ profile of Ksenia Verdiyan: https://plus.google.com/+Cornell/posts/4pevhgQZwJY -->
     </div>
-      <!-- end of the top banner --> 
+      <!-- end of the top banner -->
 
     <?php
         include 'includes/header.php';
@@ -23,7 +23,7 @@
 
     <div id="content">
 
-        <h2> Join us for the 34th Annual Great Downtown Ithaca Apple Harvest Festival! </h2>
+        <h1> Join us for the 34th Annual Great Downtown Ithaca Apple Harvest Festival! </h1>
         <h3>Date: September 30, 2017 - October 2, 2017 </h3>
 
         <div id="row1">

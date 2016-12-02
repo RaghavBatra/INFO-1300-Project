@@ -256,10 +256,11 @@ h5 {
     width: 100%;
     height: auto;
 }
-
 #map > h2 {
     text-align: center;
     font-family: Amatic SC;
+    background-color: #F0450C;
+    color:white;
     font-size: 4em;
     border: none;
     margin-left: 0.75em;
@@ -268,14 +269,14 @@ h5 {
 }
 
 #map > img {
-    width: 100%;
+    width: 90%;
     margin-left: 2.5em;
 }
 
 #directions > h2 {
     text-align: center;
     font-family: Amatic SC;
-    font-size: 4em;
+    font-size: 3em;
     border: none;
     margin-left: 0.5em;
     margin-right:0.5em;
@@ -285,10 +286,10 @@ h5 {
 #directions > div > h2 {
     text-align: center;
     font-family: Amatic SC;
-    font-size: 3em;
-    border: border: 8px outset #F0450C;
-    margin-left: 0.5em;
-    margin-right:0.5em;
+    font-size: 2em;
+    border: 8px outset orange;
+    margin-left: 5em;
+    margin-right:6em;
     padding:0.2em;
 }
 
@@ -303,13 +304,14 @@ h5 {
 }
 
 #directions > div > table {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-family: Amatic SC;
+    font-size: 1.5em;
     width: 95%;
     border: 1px;
     border-color: #F88017;
     border-style: solid;
     margin-left:1.75em;
+    font-weight: 700;
 }
 
 th {
@@ -332,21 +334,11 @@ td > a {
     color: black;
 }
 
-#sun {
-    left: 200 px;
-}
-
-table {
-    border: 2px #F88017;
-    
-}
-
-
 
 #directions > div > p {
     text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-family: Amatic SC;
+    font-size: 1.5em;
     border: none;
     margin-left: 1.25em;
     margin-right:0.5em;
@@ -355,8 +347,8 @@ table {
 
 #list > p {
     text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-family: Amatic SC;
+    font-size: 1.5em;
     margin-left: 1.25em;
     margin-right:0.5em;
     margin-bottom:0.25em;

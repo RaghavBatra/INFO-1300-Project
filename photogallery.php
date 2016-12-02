@@ -15,6 +15,11 @@
     <?php 
         include 'includes/header.php';
     ?>
+    <p> 
+    <button onclick="previous()">Previous</button> 
+    <button onclick="next()">Next</button> 
+    </p>
+
     <!--photo 1 from https://c2.staticflickr.com/6/5751/22027344875_aa950b1b1a_b.jpg 
      photo 2 from https://c1.staticflickr.com/1/702/22037228081_bb262c0a2d_b.jpg 
      photo 3 from https://c1.staticflickr.com/1/658/21404547274_a6b776f7c5_b.jpg
@@ -28,10 +33,7 @@
      photo 11 from https://c2.staticflickr.com/4/3927/15266595120_b32524ef48_b.jpg
      -->
     <img id="slides" src="images/photo1.jpg" alt="apple fest photos">
-      <p> 
-      <button onclick="previous()">Previous</button> 
-      <button onclick="next()">Next</button> 
-      </p>
+
 
    
     <?php 

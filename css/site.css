@@ -81,13 +81,14 @@ body {
     font-size: 2.5em;
     border: 6px outset #ffd199;
     float:none;
+    background-color: #ffd199;
 }
 
 #overview {
     text-align: center;
     font-size: 3em;
     margin-right: 2em;
-    margin-top: 0.5em;
+
     background-color: #ffb366;
     border: 6px outset #ff8000;
 
@@ -199,6 +200,8 @@ h2 {
     margin-left: 0.5em;
     margin-right:0.5em;
     padding:0.2em;
+    background-color: #F0450C;
+    color: white;
 }
 
 h3 {
@@ -209,13 +212,15 @@ h3 {
     padding:0.3em;
     margin-left: 5em;
     margin-right:6em;
+    background-color: orange;
 
 }
 
 h4 {
     font-size: 4em;
-    margin-top: 0em;
-    margin-left: 1.5em;
+    margin-left: 2em;
+    margin:auto;
+
 }
 
 h5 {

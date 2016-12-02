@@ -9,9 +9,3 @@
         </ul>
     </div>
     <!-- end of the navigation bar -->
-
-    <div id="top">
-        <img src="images/apples_newest.jpg" alt="apple banner image">
-        <!--  Image credits: http://unicoicounty.org/apple-festival/ -->
-    </div>
-    <!-- end of the topic banner -->

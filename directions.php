@@ -17,9 +17,10 @@
 
     <div id="content">
         
+        <h2> Directions </h2>
+        
         <div id="map">
             
-        	<h2> Directions </h2>
         	<img src="images/map.jpg" alt="Apple Fest map">
        		<!-- Image credits: http://www.downtownithaca.com/local/file_upload/images/Apple%20Harvest%20Map%202016.jpg -->
         	</a>

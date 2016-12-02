@@ -213,11 +213,11 @@ h5 {
   font-family: Amatic SC;
   color:white;
   font-size: 4.5em;
-  border: 8px outset #F0450C;
+  border: 8px outset darkorange;
   padding:0em;
   margin:auto;
-  margin-top:0.3em;
-  background-color: #F0450C;
+  margin-top:1em;
+  background-color: orange;
 }
 
 #footer ul {
@@ -240,6 +240,7 @@ h5 {
     width: 100%;
 }
 
+
 .img {
     margin: 5px;
     border: 1px solid #ccc;
@@ -256,16 +257,18 @@ h5 {
     width: 100%;
     height: auto;
 }
-#map > h2 {
+#content > h2 {
     text-align: center;
     font-family: Amatic SC;
-    background-color: #F0450C;
+    background-color: orange;
+    border: 8px outset darkorange;
     color:white;
     font-size: 4em;
     border: none;
     margin-left: 0.75em;
     margin-right:0.5em;
-    padding:0.2em;
+    margin-top: 1.1em;
+    padding: 0.2em;
 }
 
 #map > img {
@@ -391,20 +394,22 @@ button:hover {
 }
 
 #photos > img {
-  margin-left: 1.25em;
-  margin-bottom: 1.25em;
-  align-self: center;
+    margin-left: 7em;
 }
 
-#photos > h2 {
-  text-align: center;
+#buttons {
+    margin-left: 30em;
+}
+
+#gallery > h2 {
   font-family: Amatic SC;
-  background-color: #F0450C;
-  color:white;
+  background-color: orange;
+  color: white;
   font-size: 4em;
-  border: none;
+  border: 8px outset darkorange;
   margin-left: 0.75em;
   margin-right:0.5em;
+  margin-top: 1.1em;
   padding:0.2em;
 }
 

@@ -10,103 +10,110 @@
     </head>
 
 <body>
-
-    <?php
+    
+    <?php 
         include 'includes/header.php';
     ?>
-    <h5> 2016 Main Stage Schedule </h5>
-
-    <div id="sat">
-        <table id=Saturday>
+    </br>
+    </br>
+    <h3> 2016 Main Stage Schedule </h3>
+    
+    <div id="schedule">
+        <h3>Saturday Stage Schedule</h3>
+        <table>
             <tr>
                 <th>Time</th>
                 <th>Event</th>
             </tr>
             <tr>
-                <th>10:00 - 10:45AM</th>
-                <th>Punk Hands </th>
+                <td>10:00 - 10:45AM</td>
+                <td>Punk Hands </td>
             </tr>
             <tr>
-                <th>11:00 - 11:45AM</th>
-                <th>Danza Romani</th>
+                <td>11:00 - 11:45AM</td>
+                <td>Danza Romani</td>
             </tr>
             <tr>
-                <th>12:00 - 12:45PM</th>
-                <th>Vitamin L</th>
+                <td>12:00 - 12:45PM</td>
+                <td>Vitamin L</td>
             </tr>
             <tr>
-                <th>1:00 - 1:45PM</th>
-                <th>Riley Owens</th>
+                <td>1:00 - 1:45PM</td>
+                <td>Riley Owens</td>
             </tr>
             <tr>
-                <th>1:45 - 2PM</th>
-                <th>GiveAways</th>
+                <td>1:45 - 2PM</td>
+                <td>GiveAways</td>
             </tr>
             <tr>
-                <th>2:00 - 2:45PM</th>
-                <th>SUNNY Weather</th>
+                <td>2:00 - 2:45PM</td>
+                <td>SUNNY Weather</td>
             </tr>
             <tr>
-                <th>3:00 - 3:45PM</th>
-                <th>Eems</th>
+                <td>3:00 - 3:45PM</td>
+                <td>Eems</td>
             </tr>
             <tr>
-                <th>4:00 - 4:45PM</th>
-                <th>Alter</th>
+                <td>4:00 - 4:45PM</td>
+                <td>Alter</td>
             </tr>
         </table>
-    </div>
-    <div id="sun">
-        <table id=Sunday>
+        
+        <h3>Sunday Stage Schedule</h3>
+        <table>
             <tr>
                 <th>Time</th>
                 <th>Event</th>
             </tr>
             <tr>
-                <th>10:00 - 10:45AM</th>
-                <th>IC Voicestream, Ithacapella， Premium Band</th>
+                <td>10:00 - 10:45AM</td>
+                <td>IC Voicestream, Ithacapella， Premium Band</td>
             </tr>
             <tr>
-                <th>11:00 - 11:45AM</th>
-                <th>Sixteen Feathers</th>
+                <td>11:00 - 11:45AM</td>
+                <td>Sixteen Feathers</td>
             </tr>
             <tr>
-                <th>12:00 - 12:45PM</th>
-                <th>June w/ Chandani</th>
+                <td>12:00 - 12:45PM</td>
+                <td>June w/ Chandani</td>
             </tr>
             <tr>
-                <th>1:00 - 1:45PM</th>
-                <th>Mary Lorson</th>
+                <td>1:00 - 1:45PM</td>
+                <td>Mary Lorson</td>
             </tr>
             <tr>
-                <th>2:00 - 3:00PM</th>
-                <th>Dapper Dan</th>
+                <td>2:00 - 3:00PM</td>
+                <td>Dapper Dan</td>
             </tr>
             <tr>
-                <th>3:15 - 4:15PM</th>
-                <th>Radio London</th>
+                <td>3:15 - 4:15PM</td>
+                <td>Radio London</td>
             </tr>
             <tr>
-                <th>4:30 - 5:00PM</th>
-                <th>Mirage Belly Dancers</th>
+                <td>4:30 - 5:00PM</td>
+                <td>Mirage Belly Dancers</td>
             </tr>
             <tr>
-                <th>5:15 - 6:15PM</th>
-                <th>NEO Project</th>
+                <td>5:15 - 6:15PM</td>
+                <td>NEO Project</td>
             </tr>
             <tr>
-                <th>5:00 - 6:00PM</th>
-                <th>Wallin' Brass Band</th>
+                <td>5:00 - 6:00PM</td>
+                <td>Wallin' Brass Band</td>
             </tr>
         </table>
     </div>
-
-
-
-    <?php
+    
+    </br>
+    </br>
+    </br>
+    </br>
+            
+    
+    <?php 
         include 'includes/footer.php';
     ?>
-
+    
     </div>
 
 </body>

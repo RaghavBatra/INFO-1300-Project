@@ -88,6 +88,7 @@ body {
     text-align: center;
     font-size: 3em;
     margin-right: 2em;
+    margin-left: 2em;
     margin-top: 0.5em;
     background-color: #ffb366;
     border: 6px outset #ff8000;
@@ -95,9 +96,13 @@ body {
 }
 
 #apples {
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     margin-right: 3em;
+    margin-left: 3em;
+    border: 8px outset #F0450C;
+    background-color:#F0450C;
+    color:white;
 }
 
 
@@ -208,7 +213,6 @@ h2 {
     text-align: center;
     font-family: Amatic SC;
     font-size: 4em;
-    background-color: #F0450C;
     border: 8px outset #F0450C;
     margin-left: 0.5em;
     margin-right:0.5em;
@@ -229,7 +233,8 @@ h3 {
 
 h4 {
     font-size: 4em;
-    margin-top: 0em;
+    margin:auto;
+    margin-bottom:0.5em;
     margin-left: 1.5em;
 }
 

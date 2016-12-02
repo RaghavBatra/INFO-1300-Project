@@ -213,11 +213,11 @@ h5 {
   font-family: Amatic SC;
   color:white;
   font-size: 4.5em;
-  border: 8px outset #F0450C;
+  border: 8px outset orange;
   padding:0em;
   margin:auto;
   margin-top:0.3em;
-  background-color: #F0450C;
+  background-color: orange;
 }
 
 #footer ul {

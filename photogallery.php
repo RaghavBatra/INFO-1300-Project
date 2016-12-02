@@ -17,7 +17,7 @@
     ?>
     
     <div id = "photos">
-
+        <h2> Photo Gallery </h2>
         <p> 
         <button onclick="previous()">Previous</button> 
         <button onclick="next()">Next</button> 

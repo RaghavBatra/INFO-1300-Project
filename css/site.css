@@ -80,6 +80,7 @@ body {
     font-family: Amatic SC;
     font-size: 2.5em;
     border: 6px outset #ffd199;
+    background-color: #ffd199;
     float:none;
 }
 
@@ -180,6 +181,17 @@ body {
     border-top: 4px solid;
     border-color: #F0450C;
 }
+h1 {
+    text-align: center;
+    font-family: Amatic SC;
+    font-size: 4em;
+    border: 8px outset #F0450C;
+    background-color: #F0450C;
+    color:white;
+    margin-left: 0.5em;
+    margin-right:0.5em;
+    padding:0.2em;
+}
 
 h2 {
     text-align: center;
@@ -196,6 +208,7 @@ h3 {
     font-family: Amatic SC;
     font-size: 3em;
     border: 8px outset orange;
+    background-color: orange;
     padding:0.3em;
     margin-left: 5em;
     margin-right:6em;
@@ -217,6 +230,8 @@ h5 {
   padding:0em;
   margin:auto;
   margin-top:1em;
+  margin-left: 2em;
+  margin-right:2em;
   background-color: orange;
 }
 

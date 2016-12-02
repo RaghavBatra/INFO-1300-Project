@@ -10,14 +10,14 @@
     </head>
 
 <body>
-    
-    <?php 
+
+    <?php
         include 'includes/header.php';
     ?>
     </br>
     </br>
-    <h3> 2016 Main Stage Schedule </h3>
-    
+    <h5> 2016 Main Stage Schedule </h5>
+
     <div id="schedule">
         <h3>Saturday Stage Schedule</h3>
         <table>
@@ -58,7 +58,7 @@
                 <td>Alter</td>
             </tr>
         </table>
-        
+
         <h3>Sunday Stage Schedule</h3>
         <table>
             <tr>
@@ -103,17 +103,17 @@
             </tr>
         </table>
     </div>
-    
+
     </br>
     </br>
     </br>
     </br>
-            
-    
-    <?php 
+
+
+    <?php
         include 'includes/footer.php';
     ?>
-    
+
     </div>
 
 </body>

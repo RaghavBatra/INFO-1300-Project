@@ -22,36 +22,51 @@
           <div id = "address_info">
               <img src="images/location-icon.png" class="icons"alt="location icon">
                <!--Image credits: http://depo8.com/wp-content/themes/avid/images/location-icon.png-->
-              <p class = "contactstyle"><b>The Downtown Ithaca Alliance Office<br></b>
-              Upper Atrium of Center Ithaca at<br>
-              171 E. State St.</p>
-              <p class= "contactstyle"><b>The Downtown Ithaca Alliance Mailing Address</b><br>
-                171 E. State St. PMB #136<br>
-                Center Ithaca<br>
-                Ithaca, NY 14850 USA</p>
-        </div>
-
+              <div class = "contactinfo">
+                  <p><b>The Downtown Ithaca Alliance Office</b></p><p>Upper Atrium of Center Ithaca at</p>
+                  <p>171 E. State St.</p>
+              </div>
+              <div class="contactinfo">
+                <p><b>The Downtown Ithaca Alliance Mailing Address</b></p>
+                <p>171 E. State St. PMB #136</p>
+                <p>Center Ithaca</p>
+                <p>Ithaca, NY 14850 USA</p>
+            </div>
+          </div>
             <div id = "phone_address">
+
               <img src="images/phone-icon.png" class= "icons"alt="phone icon">
               <!-- Image credits: http://icons.iconarchive.com/icons/graphicloads/100-flat/256/phone-icon.png-->
-              <p class="contactstyle"><b>Phone</b><br>607-277-8679</p>
-              <p class="fax"><b>Fax</b><br>607-277-8691</p>
+              <div class = "contactinfo">
+                  <p><b>Phone</b></p>
+                  <p>607-277-8679</p>
+              </div>
+
+              <div class="contactinfo">
+                  <p><b>Fax</b>
+                  <p>607-277-8691</p>
 
             </div>
+          </div>
 
-            <div id = "email_address">
+          <div id = "email_address">
                 <img src="images/email-icon.png" class ="icons" alt="email icon">
                 <!-- Image credits: http://racetimingsolutions.co.uk/wp-content/uploads/2010/07/email-icon-orange-1.png-->
-                <p class="contactstyle"><b>Email</b><br>info@downtownithaca.com </p>
-                <p class="fax"><b>When Emailing:<br>
-                  Please provide your name, email,<br>
-                  and question/comment</p>
-                <!--Image credits: http://www.downtownithaca.com/local/file_upload/images/Screen%20Shot%202014-01-30%20at%208_54_03%20PM.png-->
-                <!--<img src="images/downtown.png" id="downtownithaca" alt="Downtown Ithaca">-->
+                <div class="contactinfo">
+                    <p><b>Email</b></p>
+                    <p>info@downtownithaca.com</p>
+                </div>
+
+                <div class="contactinfo">
+                    <p><b>When Emailing:</b></p>
+                    <p>Please provide your name, email,</p>
+                    <p>and question/comment</p>
+                </div>
             </div>
 
     </div>
 
+</div>
 </div>
 
     <?php

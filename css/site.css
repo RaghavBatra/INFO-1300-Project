@@ -19,7 +19,6 @@ body {
     position: fixed;
     font-size: 1.5em;
     margin-top: 20em;
-
     margin-bottom: 0.5em;
 }
 
@@ -484,6 +483,148 @@ button:hover {
     margin-right: auto;
 }
 
-
-
 /* button code learnt from http://css3buttongenerator.com/ */
+
+/****************************/
+/* media queries            */
+/****************************/
+
+@media screen and (max-width: 1200px) {
+    #maincontent {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h5{
+        margin:auto;
+    }
+    #maincontent {
+        display:block;
+        margin:auto;
+    }
+
+  }
+    #center > img {
+        max-width: 80%;
+        min-width: 360px;
+    }
+    #content {
+        max-width: 80%;
+    }
+
+
+@media screen and (max-width: 480px) {
+
+  /*Home Page*/
+
+    #content > h1 {
+      font-size: 2em;
+      border: 8px outset #F0450C;
+      margin-left: 0.5em;
+      margin-right:0.5em;
+  }
+    #content > h3{
+      font-size: 2em;
+      max-width: 90%;
+      margin-left: 0.5em;
+      margin-right:0.5em;
+
+    }
+
+    #photogallery {
+      display: none;
+    }
+
+    #vendor {
+      margin-right: 0.5em;
+      margin-left: 0.5em;
+      padding: 0.3em;
+      font-size: 2em;
+
+    }
+
+    #nextcontentsection > h4 {
+      font-size: 3em;
+      margin:auto;
+      margin-right: 0em;
+      margin-top: 0.5em;
+    }
+    #overview {
+        font-size: 2em;
+        margin-right: 0em;
+
+    }
+
+    #apples {
+        font-size: 3.5em;
+        margin-right: 0em;
+    }
+    h5 {
+      font-size: 4.3em;
+      margin-top:3.6em;
+
+    }
+    #top {
+      margin-top: 15.5em;
+    }
+    #content {
+      display:block;
+    }
+
+    #row1 {
+      display:block;
+    }
+
+    /*Contact Page*/
+    #phone_address {
+        margin:auto;
+    }
+
+    #email_address {
+        margin-top:3em;
+        margin:auto;
+        margin-bottom: 4em;
+    }
+
+    #address_info {
+        margin:auto;
+    }
+
+    #maincontent {
+        display:block;
+    }
+
+    #global_nav li a {
+       font-size:0.8em;
+       padding: 6px;
+       float: none;
+       display: inline-block;
+
+    }
+    #global_nav li {
+        float:none;
+        display: block;
+        background-color: #F0450C;
+        border-bottom: 3px solid orange;
+    }
+    #global_nav a:hover {
+        background-color: orange;
+        width: 100%;
+    }
+
+    .contactinfo {
+      padding: 0.5em;
+      font-size: 1.6em;
+    }
+
+    .icons {
+      margin-left:1em;
+      margin-top: 0.5em;
+    }
+
+
+
+
+    }
+}

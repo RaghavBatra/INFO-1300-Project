@@ -66,6 +66,7 @@ body {
     width:100%;
     height: 100%;
 }
+
 #vendor {
     text-align: center;
     margin-right: 1.5em;
@@ -221,8 +222,8 @@ h2 {
 h3 {
     text-align: center;
     font-size: 3em;
-    border: 8px outset orange;
-    background-color: orange;
+    border: 8px outset #ffa31a;
+    background-color: #ffb84d;
     padding:0.3em;
     margin-left: 5em;
     margin-right:6em;

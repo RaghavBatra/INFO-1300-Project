@@ -57,11 +57,11 @@ body {
 }
 
 #photogallery {
-    border:6px outset #ffd199;
+    border:6px outset #e99b63;
     float:left;
 }
 #times {
-    border: 6px outset #ffd199;
+    border: 6px outset #e99b63;
     margin-right: 2em;
     width:100%;
     height: 100%;
@@ -72,25 +72,37 @@ body {
     margin-left: 1.5em;
     padding: 1em;
     font-size: 2.5em;
-    border: 6px outset #ffd199;
-    background-color: #ffd199;
+    border: 6px outset #e68c4d;
+    background-color: #e99b63;
     float:none;
+}
+
+#nextcontentsection > h4 {
+    font-size: 5em;
+    margin-left:0.5em;
+    margin-top: 0.5em;
+    margin-bottom:0.5em;
 }
 
 #overview {
     text-align: center;
     font-size: 3em;
+    margin:auto;
     margin-right: 2em;
-    margin-top: 0.5em;
-    background-color: #ffb366;
-    border: 6px outset #ff8000;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    padding:0.8em;
+    background-color:#ffb84d;
+    border: 6px outset #ffa31a;
 
 }
 
 #apples {
-    font-size: 3em;
+    font-size: 7em;
     text-align: center;
-    margin-right: 3em;
+    margin:auto;
+    margin-right: 1em;
+
 }
 
 

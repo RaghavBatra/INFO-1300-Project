@@ -40,7 +40,7 @@
         <div id="nextcontentsection">
             <h4>Take a Break from Studying and Come for... </h4>
             <p id = "overview">Craft Show, Live Music, Street Performers, Farmers Market, Food Vendors</p>
-            <p id = "apples">...AND LOTS OF APPLES </p>
+            <p id = "apples">...AND LOTS OF APPLES<img src="images/appleicon.png" alt="apple icon"></p>
 
           </div>
 

@@ -471,9 +471,10 @@ button:hover {
     text-align: center;
     font-family: Amatic SC;
     font-size: 3em;
-    border: double;
-    margin-left: 0.5em;
-    margin-right:0.5em;
+
+    margin-left: 1.5em;
+    margin-right:1.5em;
+    margin-top: 1.5em;
     padding:0.2em;
 }
 
@@ -481,6 +482,7 @@ button:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 6em;
 }
 
 /* button code learnt from http://css3buttongenerator.com/ */

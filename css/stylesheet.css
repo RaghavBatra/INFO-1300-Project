@@ -518,7 +518,7 @@ button:hover {
     /* Contact Us Page*/
     h5{
         margin:auto;
-        margin-top: 0.8em;
+        margin-top: 0em;
     }
     #maincontent {
         display:block;
@@ -621,82 +621,49 @@ button:hover {
 @media screen and (max-width: 480px) {
 
   /*Home Page*/
-
-    #content > h1 {
-      font-size: 2em;
-      border: 8px outset #F0450C;
-      margin-left: 0.5em;
-      margin-right:0.5em;
-  }
-    #content > h3{
-      font-size: 2em;
-      max-width: 90%;
-      margin-left: 0.5em;
-      margin-right:0.5em;
-
-    }
-
     #photogallery {
       display: none;
     }
 
-    #vendor {
-      margin-right: 0.5em;
-      margin-left: 0.5em;
-      padding: 0.3em;
-      font-size: 2em;
-
-    }
-
     #nextcontentsection > h4 {
-      font-size: 3em;
       margin:auto;
-      margin-right: 0em;
+      margin-left: 0.2em;
       margin-top: 0.5em;
-    }
-    #overview {
-        font-size: 2em;
-        margin-right: 0em;
-
     }
 
     #apples {
-        font-size: 3.5em;
-        margin-right: 0em;
+        font-size: 3em;
+        margin-right:0.5em;
     }
-    h5 {
-      font-size: 4.3em;
-      margin-top:3.6em;
 
-    }
     #top {
       margin-top: 15.5em;
     }
+
     #content {
       display:block;
+      margin:auto;
+      max-width: 90%;
+      font-size:1.2em;
     }
 
     #row1 {
       display:block;
     }
 
+    #times {
+      margin-right: 0.5em;
+    }
+
     /*Contact Page*/
-    #phone_address {
-        margin:auto;
-    }
-
-    #email_address {
-        margin-top:3em;
-        margin:auto;
-        margin-bottom: 4em;
-    }
-
-    #address_info {
-        margin:auto;
+    h5 {
+      font-size: 4.3em;
+      margin-top:4em;
     }
 
     #maincontent {
         display:block;
+        max-width: 90%;
     }
 
     .contactinfo {
@@ -706,7 +673,7 @@ button:hover {
 
     .icons {
         margin-left:1em;
-        margin-top: 0.5em;
+        margin-top: 1em;
     }
 
     /*NAV Bar*/
@@ -727,10 +694,5 @@ button:hover {
     #global_nav a:hover {
         background-color: orange;
         width: 100%;
-    }
-
-
-
-
     }
 }

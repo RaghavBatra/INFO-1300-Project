@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Amatic SC;
     padding: 0;
     margin: 0;
 }
@@ -12,7 +12,6 @@ body {
 
 #global_nav {
     background-color: #F0450C;
-    font-family: Amatic SC;
     height: 2.5em;
     width: 100%;
     top: -20em;
@@ -57,10 +56,6 @@ body {
 
 }
 
-#nextcontentsection {
-    font-family: Amatic SC;
-}
-
 #photogallery {
     border:6px outset #ffd199;
     float:left;
@@ -76,7 +71,6 @@ body {
     margin-right: 1.5em;
     margin-left: 1.5em;
     padding: 1em;
-    font-family: Amatic SC;
     font-size: 2.5em;
     border: 6px outset #ffd199;
     background-color: #ffd199;
@@ -102,7 +96,6 @@ body {
 
 #phone_address {
     display:block;
-    font-family: Amatic SC;
     margin-top:2em;
     margin-left: 2em;
     padding:0em;
@@ -111,7 +104,6 @@ body {
 
 #email_address {
     display:block;
-    font-family: Amatic SC;
     margin-top:2em;
     margin-left: 5em;
     padding:0em;
@@ -120,7 +112,6 @@ body {
 
 #address_info {
     display:block;
-    font-family: Amatic SC;
     margin-top:2em;
     margin-left:1em;
     padding:0em;
@@ -132,7 +123,6 @@ body {
     margin-bottom:5em;
     margin-left:3em;
     margin-right:3em;
-    font-family: Amatic SC;
 }
 
 #downtownithaca {
@@ -184,7 +174,7 @@ body {
 #footer {
     background-color: whitesmoke;
     color: black;
-    font-family: Imprima, sans-serif;
+
     height: 2em;
     width: 100%;
     bottom: 0;
@@ -198,7 +188,6 @@ body {
 }
 h1 {
     text-align: center;
-    font-family: Amatic SC;
     font-size: 4em;
     border: 8px outset #F0450C;
     background-color: #F0450C;
@@ -210,7 +199,6 @@ h1 {
 
 h2 {
     text-align: center;
-    font-family: Amatic SC;
     font-size: 4em;
     border: 8px outset #F0450C;
     margin-left: 0.5em;
@@ -220,7 +208,6 @@ h2 {
 
 h3 {
     text-align: center;
-    font-family: Amatic SC;
     font-size: 3em;
     border: 8px outset orange;
     background-color: orange;
@@ -238,7 +225,6 @@ h4 {
 
 h5 {
   text-align: center;
-  font-family: Amatic SC;
   color:white;
   font-size: 4.5em;
   border: 8px outset darkorange;
@@ -259,7 +245,6 @@ h5 {
 
 #footer li {
     float: left;
-    font-family: Amatic SC;
     font-size: 1.5em;
     text-decoration: none;
     padding-left: 0.5em;
@@ -289,7 +274,6 @@ h5 {
 }
 #content > h2 {
     text-align: center;
-    font-family: Amatic SC;
     background-color: orange;
     border: 8px outset darkorange;
     color:white;
@@ -308,7 +292,6 @@ h5 {
 
 #directions > h2 {
     text-align: center;
-    font-family: Amatic SC;
     font-size: 3em;
     border: none;
     margin-left: 0.5em;
@@ -318,7 +301,6 @@ h5 {
 
 #directions > div > h2 {
     text-align: center;
-    font-family: Amatic SC;
     font-size: 2em;
     border: 8px outset orange;
     margin-left: 5em;
@@ -328,7 +310,6 @@ h5 {
 
 #directions > div > h3 {
     text-align: left;
-    font-family: Amatic SC;
     font-size: 2em;
     border: none;
     margin-left: 0.5em;
@@ -337,7 +318,6 @@ h5 {
 }
 
 #directions > div > table {
-    font-family: Amatic SC;
     font-size: 1.5em;
     width: 95%;
     border: 1px;
@@ -371,7 +351,6 @@ td > a {
 
 #directions > div > p {
     text-align: left;
-    font-family: Amatic SC;
     font-size: 1.5em;
     border: none;
     margin-left: 1.25em;
@@ -381,7 +360,6 @@ td > a {
 
 #list > p {
     text-align: left;
-    font-family: Amatic SC;
     font-size: 1.5em;
     margin-left: 1.25em;
     margin-right:0.5em;
@@ -432,7 +410,6 @@ button:hover {
 }
 
 #gallery > h2 {
-  font-family: Amatic SC;
   background-color: orange;
   color: white;
   font-size: 4em;
@@ -446,7 +423,6 @@ button:hover {
 
 #schedule > h3 {
     text-align: left;
-    font-family: Amatic SC;
     font-size: 2em;
     border: none;
     margin-left: 0.5em;
@@ -455,7 +431,6 @@ button:hover {
 }
 
 #schedule > table {
-    font-family: Amatic SC;
     font-size: 1.5em;
     width: 95%;
     border: 1px;
@@ -469,9 +444,7 @@ button:hover {
 
 #attractions > h3 {
     text-align: center;
-    font-family: Amatic SC;
     font-size: 3em;
-
     margin-left: 1.5em;
     margin-right:1.5em;
     margin-top: 1.5em;

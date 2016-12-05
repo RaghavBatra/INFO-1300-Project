@@ -27,7 +27,7 @@
 
         <div id="directions">
 
-        	<h2> Here are some easy ways to get to the Downtown and join the Festival! </h2>
+        	<h1> Here are some easy ways to get to the Downtown and join the Festival! </h1>
 
         	<div id="bus">
 

@@ -158,30 +158,10 @@ body {
   margin:0;
 }
 
-.address {
-  text-align: center;
-  padding:1em;
-  display:inline-block;
-  font-size: 2.5em;
-  border: 6px outset #ff8f66;
-  margin-left: 2em;
-
-}
-
 .icons {
   margin-left:1em;
 }
 
-.fax {
-  text-align: center;
-  margin-right: 1em;
-  margin-left: 1.2em;
-  padding: 0.7em;
-  margin-bottom:0em;
-  margin-top:1.8em;
-  font-size: 2em;
-  border: 6px outset #ff8f66;
-}
 
 #footer {
     background-color: whitesmoke;

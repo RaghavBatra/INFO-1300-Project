@@ -43,7 +43,7 @@ body {
   }
 
   #global_nav a:hover {
-      background-color: black;
+      background-color: orange;
   }
 
 #content {
@@ -134,8 +134,7 @@ body {
 #maincontent {
     display:flex;
     margin-bottom:5em;
-    margin-left:3em;
-    margin-right:3em;
+
 }
 
 #downtownithaca {
@@ -149,7 +148,7 @@ body {
   text-align: center;
   margin-right: 1em;
   margin-left: 1.2em;
-  padding: 0.7em;
+  padding: 1em;
   margin-top: 0.5em;
   font-size: 2em;
   border: 6px outset #ff8f66;

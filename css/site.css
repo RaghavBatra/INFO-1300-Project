@@ -469,15 +469,14 @@ button:hover {
       display: none;
     }
 
-    #nextcontentsection > h4 {
-      margin:auto;
-      margin-left: 0.2em;
-      margin-top: 0.5em;
-    }
-
     #apples {
         font-size: 3em;
-        margin-right:0.5em;
+        /*margin-right:0.5em;*/
+    }
+
+    #appleicon{
+        width:50%;
+        margin-bottom:3em;
     }
 
     #top {
@@ -486,17 +485,36 @@ button:hover {
 
     #content {
       display:block;
+      margin:0;
       margin:auto;
-      max-width: 90%;
-      font-size:1.2em;
+      font-size: 0.7em;
     }
 
+    #content > h3 {
+      margin:0;
+      margin:auto;
+      font-size: 2.4em;
+      margin-left: 0.5em;
+      margin-right:0.5em;
+    }
     #row1 {
       display:block;
     }
 
     #times {
+      width: 80%;
+      margin:0;
+      margin-left: auto;
+      margin-right: auto;
+      display:block;
+
+    }
+
+    #overview {
+      margin:0;
+      margin:auto;
       margin-right: 0.5em;
+      margin-bottom:1em;
     }
 
     /*Contact Page*/

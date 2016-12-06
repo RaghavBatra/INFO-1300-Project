@@ -40,7 +40,7 @@
         <div id="nextcontentsection">
             <h4>Take a Break from Studying and Come for... </h4>
             <p id = "overview">Craft Show, Live Music, Street Performers, Farmers Market, Food Vendors</p>
-            <p id = "apples">...AND LOTS OF APPLES<img src="images/appleicon.png" alt="apple icon"></p>
+            <p id = "apples">...AND LOTS OF APPLES<img src="images/appleicon.png" id = "appleicon" alt="apple icon"></p>
             <!-- Image credits: http://www.smallandsimplethings.org/blog/wp-content/uploads/2008/07/apple-tango-2.png-->
 
           </div>

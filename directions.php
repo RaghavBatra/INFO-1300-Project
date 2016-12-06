@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width" initial-scale=1.0>
     <title>Ithaca Apple Fest</title>
     <link rel="stylesheet" href="css/site.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
@@ -40,7 +40,7 @@
 	        				<th> Arrival </th>
 	        			</tr>
 		        		<tr>
-		        			<td><a href="images/tcat30.jpg">30</a></td>
+		        			<td><a href="images/tcat30.jpg" >30</a></td>
 		        			<!-- photo taken from https://tcat.nextinsight.com/mrnpics/30_August2016.2.jpg -->
 		        			<td> Risley </td>
 		        			<td> Seneca@Commons </td>
@@ -205,7 +205,9 @@
 
         		<div id="list">
 
-	        		<p> Seneca Garage <br> Green St. Garage <br>Cayuga Garage </p>
+                    <p> Seneca Garage </p>
+                    <p> Green St. Garage </p>
+                    <p> Cayuga Garage </p>
 
         		</div>
 

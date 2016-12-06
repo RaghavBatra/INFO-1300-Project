@@ -58,6 +58,7 @@ body {
 #photogallery {
     border:6px outset #e99b63;
     float:left;
+    margin-left: 2em;
 }
 #times {
     border: 6px outset #e99b63;
@@ -68,18 +69,18 @@ body {
 
 #vendor {
     text-align: center;
+    margin: 0;
     margin-right: 1.5em;
     margin-left: 1.5em;
     padding: 1em;
     font-size: 2.5em;
     border: 6px outset #e68c4d;
-    background-color: #e99b63;
+    background-color: goldenrod;
     float:none;
 }
 
 #nextcontentsection > h4 {
     font-size: 5em;
-    margin-left:0.5em;
     margin-top: 0.5em;
     margin-bottom:0.5em;
 }
@@ -101,10 +102,8 @@ body {
     font-size: 7em;
     text-align: center;
     margin:auto;
-    margin-right: 1em;
-
+    margin-bottom: 0.5em;
 }
-
 
 #phone_address {
     display:block;
@@ -203,7 +202,7 @@ h3 {
     border: 8px outset #ffa31a;
     background-color: #ffb84d;
     padding:0.3em;
-    width: 60%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -283,6 +282,7 @@ h5 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2em;
 }
 
 #directions > h2 {
@@ -338,8 +338,18 @@ td {
 }
 
 td > a {
-    color: black;
+    text-decoration: none;
 }
+
+td:hover {
+    background: red;
+    color: white;
+}
+
+td:hover a {
+    color: white;
+}
+
 
 
 #directions > div > p {
@@ -352,15 +362,19 @@ td > a {
     padding:0.2em;
 }
 
+
 #list > p {
     text-align: center;
     font-size: 1.5em;
     margin-left: 1.25em;
-    margin-right:0.5em;
-    margin-bottom:3em;
-    margin-top:0.25em;
-    padding:0.2em;
+    margin-right: 0.5em;
+    margin-top: 0.25em;
+    padding: 0.2em;
     font-weight: 700;
+}
+
+#list {
+    margin-bottom: 5em;
 }
 
 button {
@@ -420,7 +434,6 @@ button:hover {
   padding:0.2em;
 }
 
-
 #schedule > h3 {
     text-align: center;
     font-size: 2em;
@@ -437,13 +450,15 @@ button:hover {
     border: 1px;
     border-color: #F88017;
     border-style: solid;
-    margin-left:1.75em;
     font-weight: 700;
     text-align: center;
     margin: 0;
-    margin:auto;
+    margin: auto;
 }
 
+#schedule {
+    margin-bottom: 5em;
+}
 
 #attractions > h3 {
     text-align: center;
@@ -461,15 +476,7 @@ button:hover {
     margin-bottom: 6em;
 }
 
-td > a {
-    text-decoration: none;
-}
 
-
-td:hover, th:hover, td > a:hover {
-    background: red;
-    color: white;
-}
 
 
 /* button code learnt from http://css3buttongenerator.com/ */
@@ -478,15 +485,37 @@ td:hover, th:hover, td > a:hover {
 /* media queries            */
 /****************************/
 
-@media screen and (max-width: 1200px) {
-    #maincontent {
-      width: 60%;
-    }
-}
-
 @media screen and (max-width: 480px) {
-
-  /*Home Page*/
+    
+    #schedule > table {
+    width: 80%;
+    margin-bottom: 4em;
+    }
+    
+    #content > h5 {
+        margin-top: 5em;
+    }
+    
+    h5 {
+    text-align: center;
+    color: white;
+    font-size: 4.5em;
+    border: 8px outset darkorange;
+    /* padding: 0em; */
+    margin: auto;
+    margin-top: 3.5em;
+    /* margin-left: 2em; */
+    width: 80%;
+    background-color: orange;
+    }
+    
+    #buttons {
+    margin-left: 3em;
+    margin-right: auto;
+    display: block;
+}
+    
+    
     #photogallery {
       display: none;
     }
@@ -499,6 +528,9 @@ td:hover, th:hover, td > a:hover {
     #appleicon{
         width:50%;
         margin-bottom:3em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 
     #top {
@@ -516,8 +548,6 @@ td:hover, th:hover, td > a:hover {
       margin:0;
       margin:auto;
       font-size: 2.4em;
-      margin-left: 0.5em;
-      margin-right:0.5em;
     }
     #row1 {
       display:block;
@@ -539,7 +569,7 @@ td:hover, th:hover, td > a:hover {
       margin-bottom:1em;
     }
 
-    /*Contact Page*/
+    
     #mainbody > h5 {
       font-size: 4em;
       margin:auto;
@@ -554,12 +584,11 @@ td:hover, th:hover, td > a:hover {
     }
 
     .contactinfo {
-        display:center;
         text-align: center;
         margin-left: 0em;
         margin-right:0em;
         padding: 0.8em;
-        font-size: 1.6em;
+        font-size: 1em;
     }
 
     .icons {
@@ -599,4 +628,19 @@ td:hover, th:hover, td > a:hover {
         background-color: orange;
         width: 100%;
     }
+    
+    #map > img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 3em;
+}
   }
+
+@media screen and (max-width: 1200px) {
+    #maincontent {
+      width: 60%;
+    }
+}
+

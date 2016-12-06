@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width" initial-scale=1.0>
     <title>Ithaca Apple Fest</title>
     <link rel="stylesheet" href="css/site.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
@@ -10,16 +10,16 @@
     </head>
 
 <body>
+    
+    <?php
+        include 'includes/header.php';
+    ?>
 
     <div id="top">
         <img src="images/apples_newest.jpg" alt="apple banner image">
         <!--  Image credits: Edited by Rona Chang from public Google+ profile of Ksenia Verdiyan: https://plus.google.com/+Cornell/posts/4pevhgQZwJY -->
     </div>
       <!-- end of the top banner -->
-
-    <?php
-        include 'includes/header.php';
-    ?>
 
     <div id="content">
 

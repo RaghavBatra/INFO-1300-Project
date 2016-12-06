@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width" initial-scale=1.0>
     <title>Ithaca Apple Fest</title>
     <link rel="stylesheet" href="css/site.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
@@ -14,8 +14,6 @@
     <?php
         include 'includes/header.php';
     ?>
-    </br>
-    </br>
     <h5> 2016 Main Stage Schedule </h5>
 
     <div id="schedule">
@@ -103,12 +101,6 @@
             </tr>
         </table>
     </div>
-
-    </br>
-    </br>
-    </br>
-    </br>
-
 
     <?php
         include 'includes/footer.php';

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Ithaca Apple Fest</title>
     <script src="js/photogallery.js"></script>
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/site.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/change_logo.js"></script>

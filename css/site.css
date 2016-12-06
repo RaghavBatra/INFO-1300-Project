@@ -431,6 +431,8 @@ button:hover {
     margin-left:1.75em;
     font-weight: 700;
     text-align: center;
+    margin: 0;
+    margin:auto;
 }
 
 

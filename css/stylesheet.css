@@ -47,7 +47,6 @@ body {
   }
 
 #content {
-    padding: 0 0 2em 2em;
     margin-bottom: 2em;
 }
 
@@ -415,11 +414,13 @@ button:hover {
 }
 
 #photos > img {
-    margin-left: 7em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #buttons {
-    margin-left: 30em;
+    text-align: center;
 }
 
 #gallery > h2 {

@@ -142,15 +142,15 @@ body {
 }
 
 .contactinfo {
-  display: block;
-  text-align: center;
-  margin-right: 1em;
-  margin-left: 1.2em;
-  padding: 1em;
-  margin-top: 0.5em;
-  font-size: 2em;
-  border: 6px outset #ff8f66;
+    display: block;
+    text-align: center;
+    margin-right: 1em;
+    padding: 1em;
+    margin-top: 0.5em;
+    font-size: 2em;
+    border: 6px outset #ff8f66;
 }
+
 
 .contactinfo > p {
   margin:0;
@@ -457,7 +457,7 @@ button:hover {
 }
 
 #schedule {
-    margin-bottom: 5em;
+    margin-bottom: em;
 }
 
 #attractions > h3 {

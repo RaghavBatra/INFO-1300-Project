@@ -205,9 +205,7 @@
 
         		<div id="list">
 
-	        		<p> Seneca Garage </p>
-	        		<p> Green St. Garage </p>
-	        		<p> Cayuga Garage </p>
+	        		<p> Seneca Garage <br> Green St. Garage <br>Cayuga Garage </p>
 
         		</div>
 

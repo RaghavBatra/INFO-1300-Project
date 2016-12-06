@@ -134,6 +134,7 @@ body {
 #maincontent {
     display:flex;
     margin-bottom:5em;
+    max-width:100%;
 
 }
 
@@ -161,7 +162,6 @@ body {
 .icons {
   margin-left:1em;
 }
-
 
 #footer {
     background-color: whitesmoke;

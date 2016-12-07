@@ -481,6 +481,22 @@ button:hover {
     margin-bottom: 6em;
 }
 
+#mustsee {
+    color: #000;
+    width: 50%;
+    background-image: url('../images/rsz_back.jpg');
+    /* Image credits :https://eatingcloudsinitaly.com/2014/11/*/
+    display: block;
+    margin: auto;
+    background-size: cover;
+}
+#mustsee > p {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+
 /* Button code learnt and taken from: http://css3buttongenerator.com/ */
 
 /****************************/

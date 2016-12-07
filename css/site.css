@@ -502,6 +502,12 @@ button:hover {
     font-weight: bold;
 }
 
+#studentdiscounts > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6em;
+}
 
 /* Button code learnt and taken from: http://css3buttongenerator.com/ */
 

@@ -5,6 +5,7 @@
     <title>Ithaca Apple Fest</title>
     <link rel="stylesheet" href="css/site.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/change_logo.js"></script>
     </head>
@@ -14,11 +15,11 @@
     <?php
         include 'includes/header.php';
     ?>
-    
+
     <div id="event_header">
-        
+
         <h5> 2016 Main Stage Schedule </h5>
-        
+
     </div>
 
     <div id="schedule">
@@ -45,7 +46,7 @@
                 <td>Riley Owens</td>
             </tr>
             <tr>
-                <td>1:45 - 2PM</td>
+                <td>1:45 - 2:00PM</td>
                 <td>GiveAways</td>
             </tr>
             <tr>
@@ -70,7 +71,7 @@
             </tr>
             <tr>
                 <td>10:00 - 10:45AM</td>
-                <td>IC Voicestream, Ithacapella， Premium Band</td>
+                <td>IC Voicestream, Ithacapella, Premium Band</td>
             </tr>
             <tr>
                 <td>11:00 - 11:45AM</td>

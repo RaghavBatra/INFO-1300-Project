@@ -209,7 +209,8 @@
                     <p> Seneca Garage </p>
                     <p> Green St. Garage </p>
                     <p> Cayuga Garage </p>
-
+                    <img src="images/parking.png" id="parking" alt="parking icon">
+                    <!-- Image Credits: http://www.apartments-curavic.com/car.png-->
         		</div>
 
         	</div>

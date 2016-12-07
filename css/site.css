@@ -1,10 +1,5 @@
 body {
-    /*background-color: white;*/
-    background-image: url("../images/wood5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
- background-position: center;
- background-attachment: fixed;
+    background-color: #fff7e6;
     font-family: Amatic SC;
     padding: 0;
     margin: 0;
@@ -183,7 +178,7 @@ body {
 }
 h1 {
     text-align: center;
-    font-size: 4em;
+    font-size: 3.5em;
     border: 8px outset #F0450C;
     background-color: #F0450C;
     color:white;
@@ -285,6 +280,12 @@ h5 {
     margin-left: 2.5em;
 }
 
+#directions {
+    margin:0;
+    margin:auto;
+    width:80%;
+}
+
 #directions > h2 {
     text-align: center;
     font-size: 3em;
@@ -297,19 +298,20 @@ h5 {
 #directions > div > h2 {
     text-align: center;
     font-size: 3em;
-    border: 8px outset darkorange;
+    /*border: 8px outset #ff8f66;*/
+    border:none;
     background-color:orange;
     margin-left: 5em;
     margin-right:5em;
-    margin-top:1.5em;
+    margin-top:1em;
     padding:0.2em;
 }
 
 #directions > div > h3 {
     text-align: center;
     background-color:white;
-    border-style: none;
-    font-size: 3em;
+    border: 4px #ffd199 inset;
+    font-size: 2.5em;
     /*border: none;*/
     margin-left:auto;
     margin-right:auto;
@@ -345,6 +347,7 @@ td {
     border: 1px;
     border-color: #F88017;
     border-style: solid;
+    background-color: white;
     width: 300px;
     font-size: 0.9em;
     font-weight: lighter;
@@ -370,6 +373,7 @@ td > a {
     font-size: 5em;
 }
 
+
 #list {
     margin-bottom:6em;
 }
@@ -377,10 +381,17 @@ td > a {
     display:inline;
     text-align: center;
     border: 2px inset;
-    background-color: lightgray;
+    background-color: white;
+    margin:0;
+    margin:auto;
     font-size: 3em;
-    margin-left: 4em;
+    margin-left: 2em;
     padding:0.2em;
+}
+
+#parking {
+    margin-left: 4em;
+
 }
 
 #slides {
@@ -424,6 +435,7 @@ button:hover {
     margin:auto;
     display: block;
     margin-bottom: 5em;
+    border: 8px #ffd199 outset;
 }
 
 #buttons {
@@ -470,6 +482,10 @@ button:hover {
     margin-bottom: 5em;
 }
 
+#attractioncontent > h2 {
+    margin:0;
+    margin:auto;
+}
 
 #attractions > h3 {
     text-align: center;
@@ -478,6 +494,7 @@ button:hover {
     margin-right:1.5em;
     margin-top: 1.5em;
     padding:0.2em;
+    color:white;
 }
 
 #attractions > img {
@@ -489,16 +506,20 @@ button:hover {
 
 #mustsee {
     color: #000;
-    width: 50%;
+    width: 100%;
     background-image: url('../images/rsz_back.jpg');
     /* Image credits :https://eatingcloudsinitaly.com/2014/11/*/
     display: block;
     margin: auto;
+    margin-bottom:6em;
     background-size: cover;
+    padding:2em;
 }
+
 #mustsee > p {
     text-align: center;
     font-size: 2.5em;
+    margin:0;
     font-weight: bold;
 }
 
@@ -516,7 +537,12 @@ button:hover {
 }
 
 @media screen and (max-width: 480px) {
-
+    h5 {
+        font-size:3.5em;
+        margin: auto;
+        margin-top: 4.5em;
+        width: 80%;
+    }
     /* Global nav */
 
     #global_nav li a {
@@ -555,7 +581,7 @@ button:hover {
     }
 
     #appleicon{
-        width: 50%;
+        width: 30%;
         margin-bottom: 3em;
         margin-left: auto;
         margin-right: auto;
@@ -611,21 +637,25 @@ button:hover {
     #schedule > table {
         width: 80%;
         display: block;
+        font-size:1.2em;
     }
 
     #event_header > h5 {
-        margin-top: 3.5em;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
+        font-size:3em;
+        margin-top:5.5em;
     }
 
     /* Directions */
 
     #content > h5 {
-        margin-top: 5em;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 6.5em;
+
+    }
+
+    #directions > div > h2 {
+        margin:0;
+        margin:auto;
+        margin-top:1.5em;
         width: 80%;
     }
 
@@ -641,33 +671,54 @@ button:hover {
         width: 80%;
     }
 
-    /* Photo gallery */
+    th{
+        font-size:0.9em;
+    }
 
-    #gallery > h5 {
-        text-align: center;
-        color: white;
-        font-size: 4.5em;
-        border: 8px outset darkorange;
-        padding: 0em;
-        margin: auto;
-        width: 80%;
-        margin-top: 3.5em;
-        /* margin-left: 2em; */
-        margin-left: auto;
-        margin-right: auto;
+    td{
+        font-size:1em;
+    }
+
+    #list > p {
+        display:block;
+        margin:0;
+        margin:auto;
+    }
+
+    #parking {
+        display:none;
+    }
+
+    /* Attractions */
+    #attractioncontent {
+        margin:0;
+        margin:auto;
+        margin-top: 16em;
+    }
+
+    #attractioncontent > h2 {
+        font-size:3em;
+    }
+
+    #attractions > img {
         display: block;
-        background-color: orange;
+        margin:0;
+        margin:auto;
+        /*margin-left: auto;
+        margin-right: auto;*/
+        margin-bottom: 4em;
+        width:80%
     }
 
-
-    /* Contact us */
-
-    #mainbody > h5 {
-        font-size: 4em;
-        margin: auto;
-        margin-top: 4em;
+    #mustsee {
         width: 80%;
+        margin-bottom:5em;
     }
+
+    #mustsee > p {
+        font-size: 1.8em;
+    }
+    /* Contact us */
 
     #maincontent {
         display:block;

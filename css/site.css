@@ -439,6 +439,10 @@ button:hover {
     margin-right: auto;
 }
 
+#schedule {
+    margin-bottom: 5em;
+}
+
 
 #attractions > h3 {
     text-align: center;

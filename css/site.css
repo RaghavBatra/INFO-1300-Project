@@ -46,11 +46,6 @@ body {
       background-color: orange;
   }
 
-#content {
-    padding: 0 0 2em 2em;
-    margin-bottom: 2em;
-}
-
 #row1 {
     display:flex;
 
@@ -301,12 +296,13 @@ h5 {
 }
 
 #directions > div > h3 {
-    text-align: left;
+    text-align: center;
     font-size: 2em;
     border: none;
-    margin-left: 0.5em;
-    margin-right:0.5em;
+    margin-left:auto;
+    margin-right:auto;
     padding:0.2em;
+    width:80%;
 }
 
 #directions > div > table {
@@ -315,7 +311,8 @@ h5 {
     border: 1px;
     border-color: #F88017;
     border-style: solid;
-    margin-left:1.75em;
+    margin-left:auto;
+    margin-right:auto;
     font-weight: 700;
     text-align: center;
 }
@@ -350,9 +347,12 @@ td > a {
     padding:0.2em;
 }
 
+#list {
+    margin-bottom:4em;
+}
 #list > p {
     text-align: left;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-left: 1.25em;
     margin-right:0.5em;
     margin-bottom:0.25em;

@@ -1,3 +1,7 @@
+/* Code organized by general and page-specific. Media queries follow */
+
+/* General, including header and footer */
+
 body {
     background-color: whitesmoke;
     font-family: Amatic SC;
@@ -46,115 +50,6 @@ body {
       background-color: orange;
   }
 
-#row1 {
-    display: flex;
-}
-
-#photogallery {
-    float:left;
-    margin-left:2em;
-}
-#times {
-    margin-right: 2em;
-    width:100%;
-    height: 100%;
-}
-
-#vendor {
-    text-align: center;
-    margin-right: 1.5em;
-    margin-left: 1.5em;
-    margin-top: 0;
-    padding: 1em;
-    font-size: 2.5em;
-    background-color: darksalmon;
-    float: none;
-}
-
-#nextcontentsection > h4 {
-    font-size: 5em;
-    margin-left: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-#overview {
-    text-align: center;
-    font-size: 3em;
-    margin:auto;
-    margin-right: 2em;
-    margin-left: 2em;
-    margin-bottom: 1em;
-    padding:0.8em;
-    background-color:#ffb84d;
-}
-
-
-#apples {
-    font-size: 7em;
-    text-align: center;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0.5em;
-}
-
-
-#phone_address {
-    display:block;
-    margin-top:2em;
-    margin-left: 2em;
-    padding:0em;
-    text-align: center;
-}
-
-#email_address {
-    display:block;
-    margin-top:2em;
-    margin-left: 5em;
-    padding:0em;
-    text-align: center;
-}
-
-#address_info {
-    display:block;
-    margin-top:2em;
-    margin-left:1em;
-    padding:0em;
-    text-align: center;
-}
-
-#maincontent {
-    display:flex;
-    margin-bottom:5em;
-
-}
-
-#downtownithaca {
-    margin-top: 4em;
-    margin-left: 0.5em;
-    border: 6px outset #ff8f66;
-}
-
-.contactinfo {
-  display: block;
-  text-align: center;
-  margin-right: 1em;
-  margin-left: 1.2em;
-  padding: 1em;
-  margin-top: 0.5em;
-  font-size: 2em;
-  border: 6px outset #ff8f66;
-}
-
-.contactinfo > p {
-  margin:0;
-}
-
-.icons {
-  margin-left:1em;
-}
-
-
 #footer {
     background-color: whitesmoke;
     color: black;
@@ -170,6 +65,21 @@ body {
     border-top: 4px solid;
     border-color: #F0450C;
 }
+
+#footer ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+}
+
+#footer li {
+    float: left;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding-left: 0.5em;
+  }
+
 h1 {
     text-align: center;
     font-size: 3.5em;
@@ -218,25 +128,117 @@ h5 {
   background-color: orange;
 }
 
-#footer ul {
-    margin: 0;
-    padding: 0;
-    display: inline;
-    list-style-type: none;
+/* Page-specific */
+
+#row1 {
+    display: flex;
 }
 
-#footer li {
-    float: left;
-    font-size: 1.5em;
-    text-decoration: none;
-    padding-left: 0.5em;
-  }
+#photogallery {
+    float:left;
+    margin-left:2em;
+}
+#times {
+    margin-right: 2em;
+    width:100%;
+    height: 100%;
+}
+
+#vendor {
+    text-align: center;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    margin-top: 0;
+    padding: 1em;
+    font-size: 2.5em;
+    background-color: darksalmon;
+    float: none;
+}
+
+#nextcontentsection > h4 {
+    font-size: 5em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#overview {
+    text-align: center;
+    font-size: 3em;
+    margin:auto;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    padding:0.8em;
+    background-color:#ffb84d;
+}
+
+#apples {
+    font-size: 7em;
+    text-align: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+}
+
+#maincontent {
+    display:flex;
+    margin-bottom:5em;
+}
+
+#downtownithaca {
+    margin-top: 4em;
+    margin-left: 0.5em;
+    border: 6px outset #ff8f66;
+}
+
+#phone_address {
+    display:block;
+    margin-top:2em;
+    margin-left: 2em;
+    padding:0em;
+    text-align: center;
+}
+
+#email_address {
+    display:block;
+    margin-top:2em;
+    margin-left: 5em;
+    padding:0em;
+    text-align: center;
+}
+
+#address_info {
+    display:block;
+    margin-top:2em;
+    margin-left:1em;
+    padding:0em;
+    text-align: center;
+}
+
+.contactinfo {
+  display: block;
+  text-align: center;
+  margin-right: 1em;
+  margin-left: 1.2em;
+  padding: 1em;
+  margin-top: 0.5em;
+  font-size: 2em;
+  border: 6px outset #ff8f66;
+}
+
+.contactinfo > p {
+  margin:0;
+}
+
+.icons {
+  margin-left:1em;
+}
 
 #top img {
     margin: 0;
     width: 100%;
 }
-
 
 .img {
     margin: 5px;
@@ -327,6 +329,17 @@ h5 {
     text-align: center;
 }
 
+#directions > div > p {
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: bold;
+    border: none;
+    margin: 0;
+    margin-left: 1.25em;
+    margin-right:0.5em;
+    padding: 0.2em;
+}
+
 th {
     height: 40px;
     border: 1px;
@@ -367,22 +380,9 @@ td:hover a {
     color: white;
 }
 
-
-#directions > div > p {
-    text-align: left;
-    font-size: 2.5em;
-    font-weight: bold;
-    border: none;
-    margin: 0;
-    margin-left: 1.25em;
-    margin-right:0.5em;
-    padding: 0.2em;
-}
-
 #driving > p {
     font-size: 5em;
 }
-
 
 #list {
     margin-bottom:6em;
@@ -552,11 +552,9 @@ button:hover {
     border: 8px #ffd199 outset;
  }
 
-
-
-/****************************/
-/* media queries            */
-/****************************/
+/*************************************************************************/
+/*                            Media Queries                              */
+/*************************************************************************/
 
 @media screen and (max-width: 1200px) {
     #maincontent {

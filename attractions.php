@@ -29,13 +29,20 @@
              Image credits: photo 4 from http://www.visitmayberry.com/autumn-mount-airy-north-carolina-love-fall/-->
 
     </div>
-    <h2>Some Must Dos</h2>
+    
+    <h2>2 Hours Must Dos</h2>
     <div id="mustsee">
-        <p>Ithaca Apple Fest is a good opportunity</p>
-        <p>to explore the local farmed goods,</p>
-        <p>to enjoy concerts and cheap foods,</p>
-        <p>to immerse in the local culture,</p>
-        <p>and most importantly, to have fun!</p>
+        <p>Hot Apple Cider Donuts,</p>
+        <p>Performance by IC Voicestream, Ithacapella，and Premium Band,</p>
+        <p>Local Farm Fresh baked pies,</p>
+        <p>Artist Community in Ithaca</p>
+        <p>and most importantly, have fun!</p>
+    </div>
+    
+    <div id="studentdiscounts">
+        <h1>Cornell Student will receive 10% Food Discount!</h1>
+        <h1>Buy one and get one Apple Pie Free!</h1>
+        <img src="images/pie.png" alt="apple pie">
     </div>
     <br>
         

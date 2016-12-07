@@ -1,5 +1,10 @@
 body {
-    background-color: white;
+    /*background-color: white;*/
+    background-image: url("../images/wood3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
     font-family: Amatic SC;
     padding: 0;
     margin: 0;
@@ -54,6 +59,7 @@ body {
 #photogallery {
     border:6px outset #ffd633;
     float:left;
+    margin-left:2em;
 }
 #times {
     border: 6px outset #ffd633;

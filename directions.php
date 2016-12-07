@@ -32,7 +32,7 @@
 
         	<div id="bus">
 
-        		<h2> bus </h2>
+        		<h2> Bus </h2>
         		<h3>Departing from North Campus </h3>
 	        		<table>
 	        			<tr>
@@ -136,7 +136,7 @@
 
         	<div id="shuttle">
 
-        		<h2> Free shuttle </h2>
+        		<h2> Free Shuttle </h2>
         		<p>A free shuttle bus is offered every hour from 11am to 5pm going from North Campus to Ithaca Commons.</p>
         		<table>
 	        			<tr>

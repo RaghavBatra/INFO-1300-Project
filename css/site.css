@@ -290,20 +290,24 @@ h5 {
 
 #directions > div > h2 {
     text-align: center;
-    font-size: 2em;
-    border: 8px outset orange;
+    font-size: 3em;
+    border: 8px outset darkorange;
+    background-color:orange;
     margin-left: 5em;
-    margin-right:6em;
+    margin-right:5em;
+    margin-top:1.5em;
     padding:0.2em;
 }
 
 #directions > div > h3 {
     text-align: center;
-    font-size: 2em;
-    border: none;
+    background-color:white;
+    border-style: none;
+    font-size: 3em;
+    /*border: none;*/
     margin-left:auto;
     margin-right:auto;
-    padding:0.2em;
+    padding:0em;
     width:80%;
 }
 
@@ -323,8 +327,11 @@ th {
     height: 40px;
     border: 1px;
     border-color: #F88017;
+    background-color: #ffd199;
     border-style: solid;
     width: 300px;
+    font-family:Crimson Text;
+    font-weight: bold;
 }
 
 td {
@@ -333,6 +340,9 @@ td {
     border-color: #F88017;
     border-style: solid;
     width: 300px;
+    font-size: 0.9em;
+    font-weight: lighter;
+    font-family: Crimson Text;
 }
 
 td > a {
@@ -342,23 +352,28 @@ td > a {
 
 #directions > div > p {
     text-align: left;
-    font-size: 1.5em;
+    font-size: 2.5em;
+    font-weight: bold;
     border: none;
     margin-left: 1.25em;
     margin-right:0.5em;
     padding:0.2em;
 }
 
+#driving > p{
+    font-size: 5em;
+}
+
 #list {
-    margin-bottom:4em;
+    margin-bottom:6em;
 }
 #list > p {
-    text-align: left;
-    font-size: 2em;
-    margin-left: 1.25em;
-    margin-right:0.5em;
-    margin-bottom:0.25em;
-    margin-top:0.25em;
+    display:inline;
+    text-align: center;
+    border: 2px inset;
+    background-color: lightgray;
+    font-size: 3em;
+    margin-left: 4em;
     padding:0.2em;
 }
 
@@ -481,7 +496,7 @@ button:hover {
 @media screen and (max-width: 480px) {
 
     /* Global nav */
-    
+
     #global_nav li a {
        font-size:0.8em;
        padding: 6px;
@@ -498,17 +513,17 @@ button:hover {
     #global_nav a:hover {
         background-color: orange;
         width: 100%;
-    }    
+    }
 
   /* Home */
-    
+
     #top img {
         width: 85%;
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
-    
+
     #photogallery {
         display: none;
     }
@@ -543,7 +558,7 @@ button:hover {
       margin-left: 0.5em;
       margin-right:0.5em;
     }
-    
+
     #row1 {
       display:block;
     }
@@ -562,20 +577,20 @@ button:hover {
         width: 60%;
         margin-bottom: 1em;
     }
-    
+
     #nextcontentsection > h4 {
         margin-right: 0;
         margin-left: 0;
         text-align: center;
     }
-    
+
     /* Events schedule */
-    
+
     #schedule > table {
         width: 80%;
         display: block;
     }
-    
+
     #event_header > h5 {
         margin-top: 3.5em;
         margin-left: auto;
@@ -584,14 +599,14 @@ button:hover {
     }
 
     /* Directions */
-    
+
     #content > h5 {
         margin-top: 5em;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
     }
-    
+
     #map > img {
         width: 90%;
         margin-top: 3em;
@@ -599,13 +614,13 @@ button:hover {
         margin-right: auto;
         display: block;
     }
-    
+
     #directions > div > table {
         width: 80%;
     }
-    
+
     /* Photo gallery */
-    
+
     #gallery > h5 {
         text-align: center;
         color: white;
@@ -619,12 +634,12 @@ button:hover {
         margin-left: auto;
         margin-right: auto;
         display: block;
-        background-color: orange; 
+        background-color: orange;
     }
 
-    
+
     /* Contact us */
-    
+
     #mainbody > h5 {
         font-size: 4em;
         margin: auto;

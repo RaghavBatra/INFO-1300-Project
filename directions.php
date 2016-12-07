@@ -5,6 +5,7 @@
     <title>Ithaca Apple Fest</title>
     <link rel="stylesheet" href="css/site.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/change_logo.js"></script>
     </head>
@@ -32,12 +33,12 @@
         	<div id="bus">
 
         		<h2> bus </h2>
-        		<h3> North Campus </h3>
+        		<h3>Departing from North Campus </h3>
 	        		<table>
 	        			<tr>
-	        				<th> Route No. </th>
-	        				<th> Departure </th>
-	        				<th> Arrival </th>
+	        				<th>ROUTE NO.</th>
+	        				<th>DEPARTURE</th>
+	        				<th>ARRIVAL</th>
 	        			</tr>
 		        		<tr>
 		        			<td><a href="images/tcat30.jpg" >30</a></td>
@@ -58,12 +59,12 @@
 		        			<td> Seneca@Commons </td>
 		        		</tr>
 		        	</table>
-        		<h3> West Campus </h3>
+        		<h3>Departing from West Campus </h3>
         			<table>
 	        			<tr>
-	        				<th> Route No. </th>
-	        				<th> Departure </th>
-	        				<th> Arrival </th>
+	        				<th>ROUTE NO.</th>
+	        				<th>DEPARTURE</th>
+	        				<th>ARRIVAL</th>
 	        			</tr>
 		        		<tr>
 		        			<td><a href="images/tcat70.jpg">70</a></td>
@@ -78,12 +79,12 @@
 		        			<td> Seneca@Commons </td>
 		        		</tr>
 		        	</table>
-        		<h3> Central Campus </h3>
+        		<h3>Departing from Central Campus </h3>
         			<table>
 	        			<tr>
-	        				<th> Route No. </th>
-	        				<th> Departure </th>
-	        				<th> Arrival </th>
+	        				<th>ROUTE NO.</th>
+	        				<th>DEPARTURE</th>
+	        				<th>ARRIVAL</th>
 	        			</tr>
 		        		<tr>
 		        			<td><a href="images/tcat30.jpg">30</a></td>
@@ -104,12 +105,12 @@
 		        			<td> Seneca@Commons </td>
 		        		</tr>
 		        	</table>
-        		<h3> Collegetown </h3>
+        		<h3>Departing from Collegetown </h3>
         			<table>
 	        			<tr>
-	        				<th> Route No. </th>
-	        				<th> Departure </th>
-	        				<th> Arrival </th>
+	        				<th>ROUTE NO.</th>
+	        				<th>DEPARTURE</th>
+	        				<th>ARRIVAL</th>
 	        			</tr>
 		        		<tr>
 		        			<td><a href="images/tcat30.jpg">30</a></td>
@@ -136,10 +137,10 @@
         	<div id="shuttle">
 
         		<h2> Free shuttle </h2>
-        		<p> A free shuttle bus is offered every hour from 11am to 5pm going from North Campus to Ithaca Commons. </p>
+        		<p>A free shuttle bus is offered every hour from 11am to 5pm going from North Campus to Ithaca Commons.</p>
         		<table>
 	        			<tr>
-	        				<th> North Campus parking lot </th>
+	        				<th> North Campus Parking Lot </th>
 	        				<th> Baker Flagpole </th>
 	        				<th> Anabel Taylor Hall </th>
 	        				<th> Schwartz Center </th>

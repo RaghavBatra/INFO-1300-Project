@@ -375,11 +375,6 @@ a:link, a:active, a:visited {
     color:black;
 }
 
-td:hover a {
-    color: white;
-    background:salmon;
-    width:50px;
-}
 
 #driving > p {
     font-size: 5em;
@@ -498,7 +493,8 @@ button:hover {
 #attractions > img {
     display: inline;
     margin: 0;
-    margin:auto;
+    margin: auto;
+    margin-left: 7em;
     margin-top: 3em;
     border: 8px darksalmon outset;
 }
@@ -521,6 +517,23 @@ button:hover {
     font-size: 2.5em;
     margin:0;
     font-weight: bold;
+}
+
+td > a {
+    text-decoration: none;
+}
+
+a:link, a:active, a:visited {
+    color:black;
+}
+
+td:hover {
+    background: red;
+    color: white;
+}
+
+td:hover a {
+    color: white;
 }
 
 /*************************************************************************/

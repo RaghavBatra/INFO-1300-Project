@@ -37,7 +37,7 @@
 
     </div>
 
-    <h3>Only Have 2 Hours? Must Visits:</h3>
+    <h3>Only Have 2 hours? Must sees:</h3>
     <div id="mustsee">
         <p>Hot Apple Cider Donuts,</p>
         <p>Performance by IC Voicestream, Ithacapella,and Premium Band,</p>

@@ -3,7 +3,7 @@
 /* General, including header and footer */
 
 body {
-    background-color: whitesmoke;
+    background-color:#ffffe6;
     font-family: Amatic SC;
     padding: 0;
     margin: 0;
@@ -104,6 +104,7 @@ h3 {
     text-align: center;
     font-size: 3em;
     background-color: orange;
+    border: 8px outset orange;
     padding:0.3em;
     margin-left: 5em;
     margin-right:6em;
@@ -137,11 +138,13 @@ h5 {
 #photogallery {
     float:left;
     margin-left:2em;
+    border:6px outset #eda891;
 }
 #times {
     margin-right: 2em;
     width:100%;
     height: 100%;
+    border:6px outset #eda891;
 }
 
 #vendor {
@@ -151,7 +154,8 @@ h5 {
     margin-top: 0;
     padding: 1em;
     font-size: 2.5em;
-    background-color: darksalmon;
+    background-color: #eda891;
+    border:8px outset #eda891;
     float: none;
 }
 
@@ -270,7 +274,7 @@ h5 {
 }
 
 #map > img {
-    border: 5px solid black;
+    border: 5px solid darksalmon;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -371,13 +375,10 @@ a:link, a:active, a:visited {
     color:black;
 }
 
-td:hover {
-    background: red;
-    color: white;
-}
-
 td:hover a {
     color: white;
+    background:salmon;
+    width:50px;
 }
 
 #driving > p {
@@ -452,18 +453,6 @@ button:hover {
     text-align: center;
 }
 
-#gallery > h2 {
-  background-color: orange;
-  color: white;
-  font-size: 4em;
-  border: 8px outset darkorange;
-  margin-left: 0.75em;
-  margin-right:0.5em;
-  margin-top: 1.1em;
-  padding:0.2em;
-}
-
-
 #schedule > h3 {
     color: white;
     text-align: center;
@@ -493,47 +482,38 @@ button:hover {
     margin-bottom: 5em;
 }
 
-#attractioncontent > h2 {
+#attractioncontent > h3 {
     margin: 0;
     margin: auto;
-    margin-top: 0.5em;
+    margin-top: 1.5em;
     margin-bottom: 0.5em;
-    width: 80%;
+    width: 60%;
 }
 
-#attractions > h3 {
-    width: 70%;
-    text-align: center;
-    font-size: 3em;
-    padding: 0.2em;
-    color: white;
-    background-color: red;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0.5em;
-    display: block;
+#attractions {
+    margin-left:1em;
+    margin-right:1em;
 }
 
 #attractions > img {
-    display: block;
+    display: inline;
     margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    border: 8px #ffd199 outset;
+    margin:auto;
+    margin-top: 3em;
+    border: 8px darksalmon outset;
 }
 
 #mustsee {
     color: #000;
-    width: 90%;
+    width: 80%;
     background-image: url('../images/rsz_back.jpg');
     /* Image credits :https://eatingcloudsinitaly.com/2014/11/*/
     display: block;
     margin: auto;
     background-size: cover;
+    margin-bottom: 6em;
     padding: 2em;
+    border: 8px darksalmon outset;
 }
 
 #mustsee > p {
@@ -542,15 +522,6 @@ button:hover {
     margin:0;
     font-weight: bold;
 }
-
-#studentdiscounts > img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 6em;
-    margin-top:2em;
-    border: 8px #ffd199 outset;
- }
 
 /*************************************************************************/
 /*                            Media Queries                              */
@@ -652,7 +623,7 @@ button:hover {
         margin-left: 0;
         text-align: center;
     }
-    
+
     h5 {
         font-size:3.5em;
         margin: auto;
@@ -724,10 +695,6 @@ button:hover {
         margin-top: 16em;
     }
 
-    #attractioncontent > h2 {
-        font-size:2.5em;
-    }
-
     #attractions > img {
         display: block;
         margin: 0;
@@ -739,20 +706,13 @@ button:hover {
 
     #mustsee {
         width: 70%;
-        margin-bottom:2em;
+        margin-bottom:5em;
     }
 
     #mustsee > p {
         font-size: 1.8em;
     }
 
-    #studentdiscounts > h5 {
-        margin-top:0.5em;
-    }
-
-    #studentdiscounts > img {
-        width:80%;
-     }
     /* Contact us */
 
     #maincontent {

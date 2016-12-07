@@ -17,7 +17,7 @@
     ?>
 
     <div id = "gallery">
-        
+
         <h5> Photo Gallery </h5>
 
         <div id = "buttons">
@@ -43,7 +43,7 @@
              Image credits: photo 10 from https://c2.staticflickr.com/4/3750/10397073603_44526f0c2e_b.jpg
              Image credits: photo 11 from https://c2.staticflickr.com/4/3927/15266595120_b32524ef48_b.jpg
             -->
-             
+
             <img id="slides" src="images/photo1.jpg" alt="apple fest photos">
 
         </div>

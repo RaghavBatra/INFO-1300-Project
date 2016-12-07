@@ -13,49 +13,39 @@
     <?php
         include 'includes/header.php';
     ?>
-    
     <div id= "attractioncontent">
-        
-        <h5> Attractions </h5>
-        
-        <div id="attractions">
-            
-            <h3>Cheap Food</h3>
-            <img src="images/larger.jpg" alt="apple">
-            <h3>Live Concert</h3>
-            <img src="images/concerto.jpg" alt="apple fest photos">
-            <h3>Vendors</h3>
-            <img src="images/attractionpic.jpg" alt="apple fest photos">
-            <h3>Local Produce</h3>
-            <img src="images/fall2.jpg" alt="apple produces">
-            <!-- Image credits : "larger" from https://assets.dnainfo.com/photo/2016/9/1475171260-275192/larger.jpg
-            Image credits: "concerto" from http://www.ithaca.edu/depts/gallery_img/16036_full.jpg
-            Image credits: "attractionpic" from http://l7.alamy.com/zooms/0744ce822e77479e89cc5c714d5379cd/apples-for-sale-at-annual-apple-festival-on-the-commons-in-ithaca-bedbk3.jpg
-            Image credits: "fall2" from http://www.visitmayberry.com/autumn-mount-airy-north-carolina-love-fall/-->
+        <h5>Attractions</h5>
+      <div id="attractions">
 
-        </div>
+          <img src="images/vendor.jpg" alt="Vendors">
+          <!--Image Credits: Edited by Rona Chang: https://flic.kr/p/pg3W9x-->
+                <!-- <img src="images/vendor2.jpg" alt="apple fest photos"> -->
+          <img src="images/candyapple.jpg" alt="Food">
+            <!-- Image Credits: Edited by Rona Chang: https://assets.dnainfo.com/photo/2016/9/1475171260-275192/larger.jpg-->
 
-    <h2>Short on Time? Things you must do!</h2>
-        
+          <img src="images/zoo.jpg" alt="Petting Zoo">
+          <!-- Image Credits: Edited by Rona Chang: https://flic.kr/p/pg4P7o-->
+
+          <img src="images/concert.jpg" alt="Live Concert">
+          <!-- Image Credits: Edited by Rona Chang: http://www.ithaca.edu/depts/gallery_img/16036_full.jpg-->
+
+          <img src="images/localproduce.jpg" alt="Local Produce">
+            <!-- Image Credits: Edited by Rona Chang: http://visitmayberry.com/wp-content/uploads/2014/10/fall2.jpg-->
+          <img src="images/ride.jpg" alt="Ferris Wheel">
+          <!--Image Credits: Edited by Rona Chang: https://flic.kr/p/pg4iWm-->
+
+
+    </div>
+
+    <h3>Only Have 2 Hours? Must Visits:</h3>
     <div id="mustsee">
-        
         <p>Hot Apple Cider Donuts,</p>
         <p>Performance by IC Voicestream, Ithacapella,and Premium Band,</p>
         <p>Local Farm Fresh baked pies,</p>
         <p>Artist Community in Ithaca</p>
-        <p>and most importantly, have fun!</p>
-        
     </div>
 
-    <div id="studentdiscounts">
-        
-        <h1>Cornell Student will receive 10% Food Discount!</h1>
-        <h5>Buy one and get one Apple Pie Free!</h5>
-        <img src="images/pie.png" id = "applepie"alt="apple pie">
-        
-    </div> 
-        
-</div>
+  </div>
 
     <?php
         include 'includes/footer.php';

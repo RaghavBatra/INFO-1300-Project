@@ -41,7 +41,7 @@
 	        				<th>ARRIVAL</th>
 	        			</tr>
 		        		<tr>
-		        			<td><a href="images/tcat30.jpg" >30</a></td>
+		        			<td><a href="images/tcat30.jpg">30</a></td>
 		        			<!-- photo taken from https://tcat.nextinsight.com/mrnpics/30_August2016.2.jpg -->
 		        			<td> Risley </td>
 		        			<td> Seneca@Commons </td>

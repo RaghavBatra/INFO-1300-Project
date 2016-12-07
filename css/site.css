@@ -485,6 +485,7 @@ button:hover {
 #attractioncontent > h2 {
     margin:0;
     margin:auto;
+    width:80%;
 }
 
 #attractions > h3 {
@@ -502,6 +503,7 @@ button:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 6em;
+    border: 8px #ffd199 outset;
 }
 
 #mustsee {
@@ -528,6 +530,8 @@ button:hover {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 6em;
+    margin-top:2em;
+    border: 8px #ffd199 outset;
  }
 
 /* Button code learnt and taken from: http://css3buttongenerator.com/ */
@@ -703,27 +707,33 @@ button:hover {
     }
 
     #attractioncontent > h2 {
-        font-size:3em;
+        font-size:2.5em;
     }
 
     #attractions > img {
         display: block;
         margin:0;
         margin:auto;
-        /*margin-left: auto;
-        margin-right: auto;*/
-        margin-bottom: 4em;
+        margin-bottom:3em;
         width:80%
     }
 
     #mustsee {
-        width: 80%;
-        margin-bottom:5em;
+        width: 70%;
+        margin-bottom:2em;
     }
 
     #mustsee > p {
         font-size: 1.8em;
     }
+
+    #studentdiscounts > h5 {
+        margin-top:0.5em;
+    }
+
+    #studentdiscounts > img {
+        width:80%;
+     }
     /* Contact us */
 
     #maincontent {

@@ -29,20 +29,20 @@
                Image credits: photo 4 from http://www.visitmayberry.com/autumn-mount-airy-north-carolina-love-fall/-->
 
     </div>
-    
-    <h2>2 Hours Must Dos</h2>
+
+    <h2>Short on Time? Must Visits:</h2>
     <div id="mustsee">
         <p>Hot Apple Cider Donuts,</p>
-        <p>Performance by IC Voicestream, Ithacapella，and Premium Band,</p>
+        <p>Performance by IC Voicestream, Ithacapella,and Premium Band,</p>
         <p>Local Farm Fresh baked pies,</p>
         <p>Artist Community in Ithaca</p>
         <p>and most importantly, have fun!</p>
     </div>
-    
+
     <div id="studentdiscounts">
         <h1>Cornell Student will receive 10% Food Discount!</h1>
-        <h1>Buy one and get one Apple Pie Free!</h1>
-        <img src="images/pie.png" alt="apple pie">
+        <h5>Buy one and get one Apple Pie Free!</h5>
+        <img src="images/pie.png" id = "applepie"alt="apple pie">
     </div>
   </div>
 

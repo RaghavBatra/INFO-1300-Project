@@ -14,7 +14,12 @@
     <?php
         include 'includes/header.php';
     ?>
-    <h5> 2016 Main Stage Schedule </h5>
+    
+    <div id="event_header">
+        
+        <h5> 2016 Main Stage Schedule </h5>
+        
+    </div>
 
     <div id="schedule">
         <h3>Saturday Stage Schedule</h3>

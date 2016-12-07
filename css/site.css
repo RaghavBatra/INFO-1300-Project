@@ -93,12 +93,14 @@ body {
 
 }
 
+
 #apples {
     font-size: 7em;
     text-align: center;
-    margin:auto;
-    margin-right: 1em;
-
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
 }
 
 
@@ -311,8 +313,8 @@ h5 {
     border: 1px;
     border-color: #F88017;
     border-style: solid;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 700;
     text-align: center;
 }
@@ -358,6 +360,10 @@ td > a {
     margin-bottom:0.25em;
     margin-top:0.25em;
     padding:0.2em;
+}
+
+#slides {
+    width: 70%;
 }
 
 button {
@@ -460,7 +466,7 @@ button:hover {
     margin-bottom: 6em;
 }
 
-/* button code learnt from http://css3buttongenerator.com/ */
+/* Button code learnt and taken from: http://css3buttongenerator.com/ */
 
 /****************************/
 /* media queries            */
@@ -474,19 +480,49 @@ button:hover {
 
 @media screen and (max-width: 480px) {
 
-  /*Home Page*/
+    /* Global nav */
+    
+    #global_nav li a {
+       font-size:0.8em;
+       padding: 6px;
+       float: none;
+       display: inline-block;
+
+    }
+    #global_nav li {
+        float:none;
+        display: block;
+        background-color: #F0450C;
+        border-bottom: 3px solid orange;
+    }
+    #global_nav a:hover {
+        background-color: orange;
+        width: 100%;
+    }    
+
+  /* Home */
+    
+    #top img {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
     #photogallery {
-      display: none;
+        display: none;
     }
 
     #apples {
         font-size: 3em;
-        /*margin-right:0.5em;*/
     }
 
     #appleicon{
-        width:50%;
-        margin-bottom:3em;
+        width: 50%;
+        margin-bottom: 3em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 
     #top {
@@ -507,6 +543,7 @@ button:hover {
       margin-left: 0.5em;
       margin-right:0.5em;
     }
+    
     #row1 {
       display:block;
     }
@@ -517,21 +554,82 @@ button:hover {
       margin-left: auto;
       margin-right: auto;
       display:block;
-
     }
 
     #overview {
-      margin:0;
-      margin:auto;
-      margin-right: 0.5em;
-      margin-bottom:1em;
+        margin: 0;
+        margin: auto;
+        width: 60%;
+        margin-bottom: 1em;
+    }
+    
+    #nextcontentsection > h4 {
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    /* Events schedule */
+    
+    #schedule > table {
+        width: 80%;
+        display: block;
+    }
+    
+    #event_header > h5 {
+        margin-top: 3.5em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
 
-    /*Contact Page*/
+    /* Directions */
+    
+    #content > h5 {
+        margin-top: 5em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    
+    #map > img {
+        width: 90%;
+        margin-top: 3em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    #directions > div > table {
+        width: 80%;
+    }
+    
+    /* Photo gallery */
+    
+    #gallery > h5 {
+        text-align: center;
+        color: white;
+        font-size: 4.5em;
+        border: 8px outset darkorange;
+        padding: 0em;
+        margin: auto;
+        width: 80%;
+        margin-top: 3.5em;
+        /* margin-left: 2em; */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: orange; 
+    }
+
+    
+    /* Contact us */
+    
     #mainbody > h5 {
-      font-size: 4em;
-      margin:auto;
-      margin-top:4em;
+        font-size: 4em;
+        margin: auto;
+        margin-top: 4em;
+        width: 80%;
     }
 
     #maincontent {
@@ -569,22 +667,4 @@ button:hover {
         margin:auto;
     }
 
-    /* Global nav*/
-    #global_nav li a {
-       font-size:0.8em;
-       padding: 6px;
-       float: none;
-       display: inline-block;
-
-    }
-    #global_nav li {
-        float:none;
-        display: block;
-        background-color: #F0450C;
-        border-bottom: 3px solid orange;
-    }
-    #global_nav a:hover {
-        background-color: orange;
-        width: 100%;
-    }
   }

@@ -17,6 +17,7 @@
     ?>
 
     <div id = "gallery">
+        
         <h5> Photo Gallery </h5>
 
         <div id = "buttons">
@@ -27,9 +28,10 @@
 
         </div>
 
-        <div id = "photos">
 
-            <!-- Image credits :photo 1 from https://c2.staticflickr.com/6/5751/22027344875_aa950b1b1a_b.jpg
+        <div id = "photos">
+<!--
+             Image credits :photo 1 from https://c2.staticflickr.com/6/5751/22027344875_aa950b1b1a_b.jpg
              Image credits: photo 2 from https://c1.staticflickr.com/1/702/22037228081_bb262c0a2d_b.jpg
              Image credits: photo 3 from https://c1.staticflickr.com/1/658/21404547274_a6b776f7c5_b.jpg
              Image credits: photo 4 from https://c2.staticflickr.com/6/5767/21839482248_f3d9157b68_b.jpg
@@ -40,11 +42,11 @@
              Image credits: photo 9 from https://c2.staticflickr.com/4/3930/15266598780_104b08c412_b.jpg
              Image credits: photo 10 from https://c2.staticflickr.com/4/3750/10397073603_44526f0c2e_b.jpg
              Image credits: photo 11 from https://c2.staticflickr.com/4/3927/15266595120_b32524ef48_b.jpg
-             -->
+-->
+             
             <img id="slides" src="images/photo1.jpg" alt="apple fest photos">
 
         </div>
-
     </div>
 
 

@@ -416,12 +416,14 @@ button:hover {
 
 
 #schedule > h3 {
-    text-align: left;
+    text-align: center;
+    width: 80%;
     font-size: 2em;
     border: none;
-    margin-left: 0.5em;
-    margin-right:0.5em;
-    padding:0.2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2em;
+
 }
 
 #schedule > table {
@@ -431,9 +433,10 @@ button:hover {
     border-color: #F88017;
     border-style: solid;
     margin-bottom: 2.5em;
-    margin-left:1.75em;
     font-weight: 700;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

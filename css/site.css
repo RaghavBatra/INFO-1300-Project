@@ -1,5 +1,5 @@
 body {
-    background-color: #fff7e6;
+    background-color: whitesmoke;
     font-family: Amatic SC;
     padding: 0;
     margin: 0;
@@ -47,17 +47,14 @@ body {
   }
 
 #row1 {
-    display:flex;
-
+    display: flex;
 }
 
 #photogallery {
-    border:6px outset #ffd633;
     float:left;
     margin-left:2em;
 }
 #times {
-    border: 6px outset #ffd633;
     margin-right: 2em;
     width:100%;
     height: 100%;
@@ -67,18 +64,17 @@ body {
     text-align: center;
     margin-right: 1.5em;
     margin-left: 1.5em;
+    margin-top: 0;
     padding: 1em;
     font-size: 2.5em;
-    border: 6px outset #ffd633;
-    background-color: #ffe066;
-    float:none;
+    background-color: darksalmon;
+    float: none;
 }
 
 #nextcontentsection > h4 {
     font-size: 5em;
-    margin-left:0.5em;
-    margin-top: 0.5em;
-    margin-bottom:0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 #overview {
@@ -90,8 +86,6 @@ body {
     margin-bottom: 1em;
     padding:0.8em;
     background-color:#ffb84d;
-    border: 6px outset #ffa31a;
-
 }
 
 
@@ -199,7 +193,6 @@ h2 {
 h3 {
     text-align: center;
     font-size: 3em;
-    border: 8px outset darkorange;
     background-color: orange;
     padding:0.3em;
     margin-left: 5em;
@@ -217,7 +210,6 @@ h5 {
   text-align: center;
   color:white;
   font-size: 4.5em;
-  border: 8px outset darkorange;
   padding:0em;
   margin:auto;
   margin-top:1em;
@@ -276,8 +268,12 @@ h5 {
 }
 
 #map > img {
+    border: 5px solid black;
     width: 90%;
-    margin-left: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2em;
 }
 
 #directions {
@@ -334,8 +330,8 @@ h5 {
 th {
     height: 40px;
     border: 1px;
-    border-color: #F88017;
-    background-color: #ffd199;
+    color: white;
+    background-color: darksalmon;
     border-style: solid;
     width: 300px;
     font-family:Crimson Text;
@@ -355,7 +351,20 @@ td {
 }
 
 td > a {
-    color: black;
+    text-decoration: none;
+}
+
+a:link, a:active, a:visited {
+    color:black;
+}
+
+td:hover {
+    background: red;
+    color: white;
+}
+
+td:hover a {
+    color: white;
 }
 
 
@@ -364,12 +373,13 @@ td > a {
     font-size: 2.5em;
     font-weight: bold;
     border: none;
+    margin: 0;
     margin-left: 1.25em;
     margin-right:0.5em;
-    padding:0.2em;
+    padding: 0.2em;
 }
 
-#driving > p{
+#driving > p {
     font-size: 5em;
 }
 
@@ -378,57 +388,57 @@ td > a {
     margin-bottom:6em;
 }
 #list > p {
-    display:inline;
+    display: inline;
     text-align: center;
-    border: 2px inset;
-    background-color: white;
-    margin:0;
-    margin:auto;
+    margin: 0;
+    margin: auto;
     font-size: 3em;
     margin-left: 2em;
-    padding:0.2em;
+    padding: 0.2em;
 }
 
 #parking {
     margin-left: 4em;
-
 }
 
 #slides {
     width: 70%;
 }
 
+/* Button code learnt and taken from: http://css3buttongenerator.com/ */
 button {
-  margin-left: 1.25em;
-  background: #f25c59;
-  background-image: -webkit-linear-gradient(top, #f25c59, #f0d287);
-  background-image: -moz-linear-gradient(top, #f25c59, #f0d287);
-  background-image: -ms-linear-gradient(top, #f25c59, #f0d287);
-  background-image: -o-linear-gradient(top, #f25c59, #f0d287);
-  background-image: linear-gradient(to bottom, #f25c59, #f0d287);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  -webkit-box-shadow: 0px 1px 3px #f5a61e;
-  -moz-box-shadow: 0px 1px 3px #f5a61e;
-  box-shadow: 0px 1px 3px #f5a61e;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  width: 125px;
-  align-self: center;
+    margin-left: 1.25em;
+    background: #f25c59;
+    background-image: -webkit-linear-gradient(top, #f25c59, #f0d287);
+    background-image: -moz-linear-gradient(top, #f25c59, #f0d287);
+    background-image: -ms-linear-gradient(top, #f25c59, #f0d287);
+    background-image: -o-linear-gradient(top, #f25c59, #f0d287);
+    background-image: linear-gradient(to bottom, #f25c59, #f0d287);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #f5a61e;
+    -moz-box-shadow: 0px 1px 3px #f5a61e;
+    box-shadow: 0px 1px 3px #f5a61e;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 125px;
+    align-self: center;
+    outline: none;
+
 }
 
 button:hover {
-  background: #f7e491;
-  background-image: -webkit-linear-gradient(top, #f7e491, #f2e399);
-  background-image: -moz-linear-gradient(top, #f7e491, #f2e399);
-  background-image: -ms-linear-gradient(top, #f7e491, #f2e399);
-  background-image: -o-linear-gradient(top, #f7e491, #f2e399);
-  background-image: linear-gradient(to bottom, #f7e491, #f2e399);
-  text-decoration: none;
+    background: #f7e491;
+    background-image: -webkit-linear-gradient(top, #f7e491, #f2e399);
+    background-image: -moz-linear-gradient(top, #f7e491, #f2e399);
+    background-image: -ms-linear-gradient(top, #f7e491, #f2e399);
+    background-image: -o-linear-gradient(top, #f7e491, #f2e399);
+    background-image: linear-gradient(to bottom, #f7e491, #f2e399);
+    text-decoration: none;
 }
 
 #photos > img {
@@ -455,6 +465,7 @@ button:hover {
 
 
 #schedule > h3 {
+    color: white;
     text-align: center;
     width: 80%;
     font-size: 2em;
@@ -483,39 +494,46 @@ button:hover {
 }
 
 #attractioncontent > h2 {
-    margin:0;
-    margin:auto;
-    width:80%;
+    margin: 0;
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 80%;
 }
 
 #attractions > h3 {
+    width: 70%;
     text-align: center;
     font-size: 3em;
-    margin-left: 1.5em;
-    margin-right:1.5em;
-    margin-top: 1.5em;
-    padding:0.2em;
-    color:white;
+    padding: 0.2em;
+    color: white;
+    background-color: red;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    display: block;
 }
 
 #attractions > img {
     display: block;
+    margin: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 6em;
+    margin-top: 1em;
+    margin-bottom: 2em;
     border: 8px #ffd199 outset;
 }
 
 #mustsee {
     color: #000;
-    width: 100%;
+    width: 90%;
     background-image: url('../images/rsz_back.jpg');
     /* Image credits :https://eatingcloudsinitaly.com/2014/11/*/
     display: block;
     margin: auto;
-    margin-bottom:6em;
     background-size: cover;
-    padding:2em;
+    padding: 2em;
 }
 
 #mustsee > p {
@@ -534,7 +552,7 @@ button:hover {
     border: 8px #ffd199 outset;
  }
 
-/* Button code learnt and taken from: http://css3buttongenerator.com/ */
+
 
 /****************************/
 /* media queries            */
@@ -547,12 +565,7 @@ button:hover {
 }
 
 @media screen and (max-width: 480px) {
-    h5 {
-        font-size:3.5em;
-        margin: auto;
-        margin-top: 4.5em;
-        width: 80%;
-    }
+
     /* Global nav */
 
     #global_nav li a {
@@ -641,6 +654,13 @@ button:hover {
         margin-left: 0;
         text-align: center;
     }
+    
+    h5 {
+        font-size:3.5em;
+        margin: auto;
+        margin-top: 4.5em;
+        width: 80%;
+    }
 
     /* Events schedule */
 
@@ -701,8 +721,8 @@ button:hover {
 
     /* Attractions */
     #attractioncontent {
-        margin:0;
-        margin:auto;
+        margin: 0;
+        margin: auto;
         margin-top: 16em;
     }
 
@@ -712,10 +732,11 @@ button:hover {
 
     #attractions > img {
         display: block;
-        margin:0;
-        margin:auto;
-        margin-bottom:3em;
-        width:80%
+        margin: 0;
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 3em;
+        width: 80%
     }
 
     #mustsee {

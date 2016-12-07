@@ -22,7 +22,7 @@
 
         <div id="map">
 
-        	<img src="images/map.jpg" alt="Apple Fest map" id = "commons_map">
+        	<img src="images/map_edited.jpg" alt="Apple Fest map" id = "commons_map">
        		<!-- Image credits: http://www.downtownithaca.com/local/file_upload/images/Apple%20Harvest%20Map%202016.jpg -->
         	</a>
 

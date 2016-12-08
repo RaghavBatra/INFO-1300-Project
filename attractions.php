@@ -17,6 +17,8 @@
         <h5>Attractions</h5>
       <div id="attractions">
 
+          <div class="attractionrow">
+
           <img src="images/vendor.jpg" alt="Vendors">
           <!--Image Credits: Edited by Rona Chang: https://flic.kr/p/pg3W9x-->
                 <!-- <img src="images/vendor2.jpg" alt="apple fest photos"> -->
@@ -26,6 +28,9 @@
           <img src="images/zoo.jpg" alt="Petting Zoo">
           <!-- Image Credits: Edited by Rona Chang: https://flic.kr/p/pg4P7o-->
 
+        </div>
+
+        <div class ="attractionrow">
           <img src="images/concert.jpg" alt="Live Concert">
           <!-- Image Credits: Edited by Rona Chang: http://www.ithaca.edu/depts/gallery_img/16036_full.jpg-->
 
@@ -33,7 +38,7 @@
             <!-- Image Credits: Edited by Rona Chang: http://visitmayberry.com/wp-content/uploads/2014/10/fall2.jpg-->
           <img src="images/ride.jpg" alt="Ferris Wheel">
           <!--Image Credits: Edited by Rona Chang: https://flic.kr/p/pg4iWm-->
-
+        </div>
 
     </div>
 

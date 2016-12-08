@@ -30,11 +30,13 @@
         </div>
 
         <div class ="attractionrow">
+
           <img src="images/liveconcert.jpg" alt="Live Concert">
           <!-- Image Credits: Edited by Rona Chang: http://www.ithaca.edu/depts/gallery_img/16036_full.jpg-->
 
           <img src="images/localproduce.jpg" alt="Local Produce">
             <!-- Image Credits: Edited by Rona Chang: http://visitmayberry.com/wp-content/uploads/2014/10/fall2.jpg-->
+            
           <img src="images/rides.jpg" alt="Ferris Wheel">
           <!--Image Credits: Edited by Rona Chang: https://flic.kr/p/pg4iWm-->
         </div>

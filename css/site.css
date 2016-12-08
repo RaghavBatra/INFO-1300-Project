@@ -485,19 +485,17 @@ button:hover {
 }
 
 #attractions {
-    margin:0;
-    margin:auto;
-    padding:1em;
+    margin-left:1em;
+    margin-right:1em;
 }
 
-.attractionrow {
-    display:inline;
-    margin-top: 4.5em;
-}
-
-.attractionrow > img {
+#attractions > img {
+    display: inline;
+    margin-left: 8em;
+    margin-top: 3em;
     border: 8px darksalmon outset;
-    margin-top: 4em;
+    width: 33%;
+    height: 33%;
 }
 
 #mustsee {
@@ -703,19 +701,11 @@ td:hover a {
     }
 
     /* Attractions */
+    
     #attractioncontent {
         margin: 0;
         margin: auto;
         margin-top: 16em;
-    }
-
-    #attractions > img {
-        display: block;
-        margin: 0;
-        margin: auto;
-        margin-top: 1em;
-        margin-bottom: 3em;
-        width: 80%
     }
 
     #mustsee {

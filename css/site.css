@@ -375,7 +375,6 @@ a:link, a:active, a:visited {
     color:black;
 }
 
-
 #driving > p {
     font-size: 5em;
 }
@@ -492,11 +491,11 @@ button:hover {
 
 #attractions > img {
     display: inline;
-    margin: 0;
-    margin: auto;
-    margin-left: 7em;
+    margin-left: 8em;
     margin-top: 3em;
     border: 8px darksalmon outset;
+    width: 33%;
+    height: 33%;
 }
 
 #mustsee {

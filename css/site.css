@@ -528,13 +528,9 @@ a:link, a:active, a:visited {
     color:black;
 }
 
-td:hover {
-    background: red;
-    color: white;
-}
-
 td:hover a {
     color: white;
+    background: darksalmon;
 }
 
 /*************************************************************************/
@@ -685,11 +681,11 @@ td:hover a {
     }
 
     th{
-        font-size:0.9em;
+        font-size:0.7em;
     }
 
     td{
-        font-size:1em;
+        font-size:0.8em;
     }
 
     #list > p {
@@ -752,7 +748,7 @@ td:hover a {
         margin:0;
         margin:auto;
         margin-bottom: 4em;
-        font-size:1em;
+        font-size:0.8em;
     }
 
 

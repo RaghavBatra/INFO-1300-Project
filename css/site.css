@@ -710,6 +710,11 @@ td:hover a {
         margin-top: 16em;
     }
 
+    .attractionrow > img {
+        width:90%;
+    }
+
+
     #mustsee {
         width: 70%;
         margin-bottom:5em;
